@@ -44,15 +44,15 @@ body, html {
   display: grid;
   grid-template-columns: .5fr 1fr 1fr 1fr .5fr .1fr .5fr 1fr 1fr 1fr .5fr;
   grid-template-rows: repeat(10, 52.3px);
-  grid-template-areas: "left topL topL topL midR spine midL topR topR topR right"
+  grid-template-areas: "hdrL hdrL hdrL hdrL hdrL spine hdrR hdrR hdrR hdrR hdrR"
                        "left btn1 btn2 btn3 midR spine midL view view view right"
                        "left img img img midR spine midL view view view right"
                        "left img img img midR spine midL view view view right"
                        "left img img img midR spine midL ran1 ran1 ran1 right"
-                       "left ran ran ran midR spine midL ran1 ran1 ran1  right"
-                       "left ran ran ran midR spine midL ran1 ran1 ran1  right"
-                       "left ran ran ran midR spine midL ran1 ran1 ran1  right"
-                       "left ran ran ran midR spine midL ran1 ran1 ran1  right"
+                       "left img img img midR spine midL ran1 ran1 ran1 right"
+                       "left ran ran ran midR spine midL ran1 ran1 ran1 right"
+                       "left ran ran ran midR spine midL ran1 ran1 ran1 right"
+                       "ftrL ftrL ftrL ftrL ftrL spine ftrR ftrR ftrR ftrR ftrR"
 }
 
 #btn1{
@@ -60,7 +60,7 @@ body, html {
   background-color: aqua;
   background: radial-gradient(aqua, black 220%);
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid silver;
   width: 60px;
   justify-self: center;
 }
@@ -70,7 +70,7 @@ body, html {
   background-color: aqua;
   background: radial-gradient(aqua, black 220%);
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid silver;
   width: 60px;
   justify-self: center;
 }
@@ -80,14 +80,15 @@ body, html {
   background-color: aqua;
   background: radial-gradient(aqua, black 220%); 
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid silver;
   width: 60px;
   justify-self: center;
 }
 
 #image{
   grid-area: img;
-  background-color: black;
+  background: radial-gradient(lightgrey 88%, black);
+  border: 2px solid black;
   border-radius: 25px;
 }
 
@@ -103,6 +104,7 @@ body, html {
 
 #view{
   grid-area: view;
-  background-color: grey;
+  background: radial-gradient(lightgrey 88%, black);
+  border: 2px solid black;
   border-radius: 25px;
 }
