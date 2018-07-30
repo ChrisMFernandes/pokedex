@@ -48,11 +48,26 @@ body, html {
                        "left btn1 btn2 btn3 midR spine midL view view view right"
                        "left img img img midR spine midL view view view right"
                        "left img img img midR spine midL view view view right"
-                       "left img img img midR spine midL ran1 ran1 ran1 right"
+                       "left img img img midR spine midL type1 type2 type3 right"
                        "left img img img midR spine midL ran1 ran1 ran1 right"
                        "left ran ran ran midR spine midL ran1 ran1 ran1 right"
                        "left ran ran ran midR spine midL ran1 ran1 ran1 right"
                        "ftrL ftrL ftrL ftrL ftrL spine ftrR ftrR ftrR ftrR ftrR"
+}
+
+#headerLeft{
+  grid-area: hdrL;
+  margin-left: 2%;
+  border-radius: 15px 0px 0px 0px;
+  background: linear-gradient(grey -220%, red)
+}
+
+#headerRight{
+  grid-area: hdrR;
+  margin-right: 2%;
+  border-radius: 0px 15px 0px 0px;
+  background: linear-gradient(grey -220%, red)
+
 }
 
 #btn1{
@@ -92,6 +107,14 @@ body, html {
   border-radius: 25px;
 }
 
+#input{
+  grid-area: ran;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, auto);
+}
+
 #spine{
   grid-area: spine;
     background: linear-gradient(
@@ -107,4 +130,36 @@ body, html {
   background: radial-gradient(lightgrey 88%, black);
   border: 2px solid black;
   border-radius: 25px;
+}
+
+#type1{
+  grid-area: type1;
+  background-color: gray;
+  border-radius: 75px;
+  border: 2px solid black;
+  height: 35px;
+  align-self: center;
+}
+
+#type2{
+  grid-area: type2;
+  background-color: gray;
+  border-radius: 75px;
+  border: 2px solid black;
+  height: 35px;
+  align-self: center;
+}
+
+#type3{
+  grid-area: type3;
+  background-color: gray;
+  border-radius: 75px;
+  border: 2px solid black;
+  height: 35px;
+  align-self: center;
+}
+
+#ran1{
+  grid-area: ran1;
+  background-color: black;
 }
