@@ -30,7 +30,7 @@ body, html {
 
 #pokedex{
   grid-area: pokedex;
-  /* background-color: red; */
+  grid-gap: 3px;
   background: linear-gradient(
     to right, 
     black,
@@ -43,5 +43,66 @@ body, html {
   border: 3px solid grey;
   display: grid;
   grid-template-columns: .5fr 1fr 1fr 1fr .5fr .1fr .5fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: repeat(10, 48px);
+  grid-template-rows: repeat(10, 52.3px);
+  grid-template-areas: "left topL topL topL midR spine midL topR topR topR right"
+                       "left btn1 btn2 btn3 midR spine midL view view view right"
+                       "left img img img midR spine midL view view view right"
+                       "left img img img midR spine midL view view view right"
+                       "left img img img midR spine midL ran1 ran1 ran1 right"
+                       "left ran ran ran midR spine midL ran1 ran1 ran1  right"
+                       "left ran ran ran midR spine midL ran1 ran1 ran1  right"
+                       "left ran ran ran midR spine midL ran1 ran1 ran1  right"
+                       "left ran ran ran midR spine midL ran1 ran1 ran1  right"
+}
+
+#btn1{
+  grid-area: btn1;
+  background-color: aqua;
+  background: radial-gradient(aqua, black 220%);
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 60px;
+  justify-self: center;
+}
+
+#btn2{
+  grid-area: btn2;
+  background-color: aqua;
+  background: radial-gradient(aqua, black 220%);
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 60px;
+  justify-self: center;
+}
+
+#btn3{
+  grid-area: btn3;
+  background-color: aqua;
+  background: radial-gradient(aqua, black 220%); 
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 60px;
+  justify-self: center;
+}
+
+#image{
+  grid-area: img;
+  background-color: black;
+  border-radius: 25px;
+}
+
+#spine{
+  grid-area: spine;
+    background: linear-gradient(
+    to right, 
+    black,
+    red,
+    black
+    )
+}
+
+#view{
+  grid-area: view;
+  background-color: grey;
+  border-radius: 25px;
 }
