@@ -1,0 +1,19 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.background {
+  background-image: url("images/poke-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr [col-start]);
+  grid-template-rows: repeat(15, 50px);
+}
