@@ -1,3 +1,8 @@
+@font-face{ 
+  font-family: PokeFont; 
+  src: url('fonts/Pokemon\ Solid.ttf'); 
+} 
+
 body, html {
   height: 100%;
   margin: 0;
@@ -28,14 +33,14 @@ body, html {
                        "foot foot foot foot"
 }
 
-#pokedex{
+.pokedex{
   grid-area: pokedex;
   grid-gap: 3px;
   background: linear-gradient(
     to right, 
     black,
-    red 1%,
-    red 99%,
+    #aa0505 1%,
+    #aa0505 99%,
     black
   );
   box-shadow: 10px 10px 5px black;
@@ -55,18 +60,23 @@ body, html {
                        "ftrL ftrL ftrL ftrL ftrL spine ftrR ftrR ftrR ftrR ftrR"
 }
 
-#headerLeft{
+.headerLeft{
   grid-area: hdrL;
   margin-left: 2%;
   border-radius: 15px 0px 0px 0px;
-  background: linear-gradient(grey -220%, red)
+  background: linear-gradient(grey -220%, #aa0505);
 }
 
-#headerRight{
+.headerLeft h1{
+  font-family: PokeFont;
+  grid-area: hdrL;
+}
+
+.headerRight{
   grid-area: hdrR;
   margin-right: 2%;
   border-radius: 0px 15px 0px 0px;
-  background: linear-gradient(grey -220%, red)
+  background: linear-gradient(grey -220%, #aa0505)
 
 }
 
@@ -100,14 +110,14 @@ body, html {
   justify-self: center;
 }
 
-#image{
+.image{
   grid-area: img;
   background: radial-gradient(lightgrey 88%, black);
   border: 2px solid black;
   border-radius: 25px;
 }
 
-#input{
+.input{
   grid-area: ran;
   background-color: black;
   display: grid;
@@ -115,17 +125,17 @@ body, html {
   grid-template-rows: repeat(5, auto);
 }
 
-#spine{
+.spine{
   grid-area: spine;
     background: linear-gradient(
     to right, 
     black,
-    red,
+    #aa0505,
     black
     )
 }
 
-#view{
+.view{
   grid-area: view;
   background: radial-gradient(lightgrey 88%, black);
   border: 2px solid black;
@@ -134,7 +144,7 @@ body, html {
 
 #type1{
   grid-area: type1;
-  background-color: gray;
+  background-color: lightgray;
   border-radius: 75px;
   border: 2px solid black;
   height: 35px;
@@ -143,7 +153,7 @@ body, html {
 
 #type2{
   grid-area: type2;
-  background-color: gray;
+  background-color: lightgray;
   border-radius: 75px;
   border: 2px solid black;
   height: 35px;
@@ -152,14 +162,28 @@ body, html {
 
 #type3{
   grid-area: type3;
-  background-color: gray;
+  background-color: lightgray;
   border-radius: 75px;
   border: 2px solid black;
   height: 35px;
   align-self: center;
 }
 
-#ran1{
+.ran1{
   grid-area: ran1;
   background-color: black;
 }
+
+/* #footerLeft{
+  grid-area: ftrL;
+  margin-left: 2%;
+  border-radius: 0px 15px 0px 0px;
+  background: linear-gradient(to bottom, #aa0505, grey)
+}
+
+#footerRight{
+  grid-area: ftrR;
+  margin-right: 1.2%;
+  border-radius: 0px 0px 15px 0px;
+  background: linear-gradient(to bottom, #aa0505, grey)
+} */
