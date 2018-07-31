@@ -134,6 +134,9 @@ body, html {
 #btnT{;
   grid-area: btnT;
   background-color: black;
+  border-top: 2px solid grey;
+  border-right: 2px solid grey; 
+  border-left: 2px solid grey;
 }
 
 #btnM{;
@@ -144,19 +147,33 @@ body, html {
 #btnR{;
   grid-area: btnR;
   background-color: black;
-  border-top:    2px solid grey;
-  border-right:  2px solid grey; 
+  border-top: 2px solid grey;
+  border-right: 2px solid grey; 
   border-bottom: 2px solid grey;
 }
 
 #btnL{;
   grid-area: btnL;
   background-color: black;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey; 
+  border-bottom: 2px solid grey;
 }
 
 #btnB{;
   grid-area: btnB;
   background-color: black;
+  border-right: 2px solid grey;
+  border-left: 2px solid grey; 
+  border-bottom: 2px solid grey;
+}
+
+#pad{
+  grid-area: pad;
+  background: radial-gradient(black 46%, grey);
+  border: 2px solid grey;
+  border-radius: 50%;
+  width: 75px;
 }
 
 .spine{
@@ -171,7 +188,7 @@ body, html {
 
 .view{
   grid-area: view;
-  background: radial-gradient(lightgrey 88%, black);
+  background: radial-gradient(#08e208 88%, black);
   border: 2px solid black;
   border-radius: 25px;
 }
