@@ -117,6 +117,9 @@ body, html {
   background: radial-gradient(lightgrey 88%, black);
   border: 2px solid black;
   border-radius: 25px;
+  display: grid;
+  grid-template-columns: .5fr 1fr .5fr;
+  grid-template-rows: .2fr 1fr .2fr;
 }
 
 .input{
@@ -134,38 +137,31 @@ body, html {
 #btnT{
   grid-area: btnT;
   background-color: black;
-  border-top: 2px solid grey;
-  border-right: 2px solid grey; 
-  border-left: 2px solid grey;
+  border-bottom: none;
 }
 
 #btnM{
   grid-area: btnM;
   background-color: black;
+  border: none;
 }
 
 #btnR{
   grid-area: btnR;
   background-color: black;
-  border-top: 2px solid grey;
-  border-right: 2px solid grey; 
-  border-bottom: 2px solid grey;
+  border-left: none;
 }
 
 #btnL{
   grid-area: btnL;
   background-color: black;
-  border-top: 2px solid grey;
-  border-left: 2px solid grey; 
-  border-bottom: 2px solid grey;
+  border-right: none;
 }
 
 #btnB{
   grid-area: btnB;
   background-color: black;
-  border-right: 2px solid grey;
-  border-left: 2px solid grey; 
-  border-bottom: 2px solid grey;
+  border-top: none;
 }
 
 #pad{
@@ -191,6 +187,9 @@ body, html {
   background: radial-gradient(#08e208 88%, black);
   border: 2px solid black;
   border-radius: 25px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(5,auto);
 }
 
 #type1{
@@ -279,10 +278,12 @@ body, html {
 }
 
 #logo{
-  grid-area: text;
+  grid-area: hdrL;
   font-family: PokeFont;
-  margin: 0;
+  margin: 3%;
   justify-self: center;
   color: black;
-  opacity: 0.5;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
 }
