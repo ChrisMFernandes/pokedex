@@ -131,7 +131,7 @@ body, html {
                        ". . . . . . . . . ."
 }
 
-#btnT{;
+#btnT{
   grid-area: btnT;
   background-color: black;
   border-top: 2px solid grey;
@@ -139,12 +139,12 @@ body, html {
   border-left: 2px solid grey;
 }
 
-#btnM{;
+#btnM{
   grid-area: btnM;
   background-color: black;
 }
 
-#btnR{;
+#btnR{
   grid-area: btnR;
   background-color: black;
   border-top: 2px solid grey;
@@ -152,7 +152,7 @@ body, html {
   border-bottom: 2px solid grey;
 }
 
-#btnL{;
+#btnL{
   grid-area: btnL;
   background-color: black;
   border-top: 2px solid grey;
@@ -160,7 +160,7 @@ body, html {
   border-bottom: 2px solid grey;
 }
 
-#btnB{;
+#btnB{
   grid-area: btnB;
   background-color: black;
   border-right: 2px solid grey;
