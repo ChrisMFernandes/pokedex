@@ -67,9 +67,11 @@ body, html {
   background: linear-gradient(grey -220%, #aa0505);
 }
 
-.headerLeft h1{
+.headerLeft p{
   font-family: PokeFont;
   grid-area: hdrL;
+  text-align: center;
+  color: grey;
 }
 
 .headerRight{
@@ -119,10 +121,42 @@ body, html {
 
 .input{
   grid-area: ran;
-  background-color: black;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(10, .5fr);
   grid-template-rows: repeat(5, auto);
+  grid-template-areas: ". . . . . . . . . ."
+                       ". pad pad pad pad . . . btnT ."
+                       ". pad pad pad pad . . btnL btnM btnR"
+                       ". pad pad pad pad . . . btnB ."
+                       ". . . . . . . . . ."
+}
+
+#btnT{;
+  grid-area: btnT;
+  background-color: black;
+}
+
+#btnM{;
+  grid-area: btnM;
+  background-color: black;
+}
+
+#btnR{;
+  grid-area: btnR;
+  background-color: black;
+  border-top:    2px solid grey;
+  border-right:  2px solid grey; 
+  border-bottom: 2px solid grey;
+}
+
+#btnL{;
+  grid-area: btnL;
+  background-color: black;
+}
+
+#btnB{;
+  grid-area: btnB;
+  background-color: black;
 }
 
 .spine{
@@ -172,6 +206,7 @@ body, html {
 .ran1{
   grid-area: ran1;
   background-color: black;
+  opacity: 0.5;
 }
 
 /* #footerLeft{
