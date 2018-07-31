@@ -120,6 +120,14 @@ body, html {
   display: grid;
   grid-template-columns: .5fr 1fr .5fr;
   grid-template-rows: .2fr 1fr .2fr;
+  grid-template-areas: ". name ."
+                       "image image image"
+                       ". . ."
+}
+
+#pokeimage{
+  grid-area: image;
+  width: 200px;
 }
 
 .input{
