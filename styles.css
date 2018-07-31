@@ -181,7 +181,7 @@ body, html {
     background: linear-gradient(
     to right, 
     black,
-    #aa0505,
+    #aa0505 35%,
     black
     )
 }
@@ -194,48 +194,95 @@ body, html {
 }
 
 #type1{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
   grid-area: type1;
-  background-color: lightgray;
+  background-color: silver;
   border-radius: 75px;
   border: 2px solid black;
   height: 35px;
   align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #type2{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
   grid-area: type2;
-  background-color: lightgray;
+  background-color: silver;
   border-radius: 75px;
   border: 2px solid black;
   height: 35px;
   align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #type3{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
   grid-area: type3;
-  background-color: lightgray;
+  background-color: silver;
   border-radius: 75px;
   border: 2px solid black;
   height: 35px;
   align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ran1{
   grid-area: ran1;
-  background-color: black;
+  /* background-color: black; */
+  /* opacity: 0.5; */
+  display: grid;
+  grid-gap: 3%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "input input input"
+                       "submit . submit2"
+                       ". . ."
+                       "text text text"
+}
+
+#text{
+  font-family: 'Press Start 2P', cursive;
+  grid-area: input;
+  border-radius: 25px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#submit{
+  font-family: 'Press Start 2P', cursive;
+  grid-area: submit;
+  border-radius: 25px;
+  width: 75px;
+  justify-self: center;
+  font-size: .7rem;
+  background-color: #fafa30;
+}
+
+#submit2{
+  font-family: 'Press Start 2P', cursive;
+  grid-area: submit2;
+  border-radius: 25px;
+  width: 75px;
+  justify-self: center;
+  font-size: .7rem;
+  padding: 1%;
+  background-color: #fafa30;
+}
+
+#logo{
+  grid-area: text;
+  font-family: PokeFont;
+  margin: 0;
+  justify-self: center;
+  color: black;
   opacity: 0.5;
 }
-
-/* #footerLeft{
-  grid-area: ftrL;
-  margin-left: 2%;
-  border-radius: 0px 15px 0px 0px;
-  background: linear-gradient(to bottom, #aa0505, grey)
-}
-
-#footerRight{
-  grid-area: ftrR;
-  margin-right: 1.2%;
-  border-radius: 0px 0px 15px 0px;
-  background: linear-gradient(to bottom, #aa0505, grey)
-} */
