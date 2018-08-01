@@ -247,13 +247,13 @@ body, html {
   /* background-color: black; */
   /* opacity: 0.5; */
   display: grid;
-  grid-gap: 3%;
+  grid-row-gap: 3%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: "input input input"
-                       "submit . submit2"
+                       "submit btn4 submit2"
                        ". . ."
-                       "text text text"
+                       "btn1 btn2 btn3"
 }
 
 #text{
@@ -283,6 +283,49 @@ body, html {
   font-size: .7rem;
   padding: 1%;
   background-color: #fafa30;
+}
+
+.dummybtns{
+  grid-area: btn4;
+  display: grid;
+  padding: 2% 0 2% 0;
+
+}
+
+#orangebtn{
+  background-color: orange;
+  border-radius: 25px;
+  align-self: end;
+  height: .8rem;
+}
+
+#greenbtn{
+  background-color: green;
+  border-radius: 25px;
+  align-self: start;
+  height: .8rem;
+}
+
+#bluebtnL{
+  grid-area: btn1;
+  background-color: aqua;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+
+#bluebtnM{
+  grid-area: btn2;
+  background-color: aqua;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#bluebtnR{
+  grid-area: btn3;
+  background-color: aqua;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 
 #logo{
