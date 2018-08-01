@@ -198,6 +198,67 @@ body, html {
   display: grid;
   grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(5,auto);
+  grid-template-areas: ". ability ability ability ." 
+                       "ability1 ability1 . ability2 ability2" 
+                       ". . . . ." 
+                       ". hp atk def ." 
+                       ". hpresult atkresult defresult .";
+}
+
+#abilities{
+  grid-area: ability;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  justify-self: center;
+  height: 0;
+}
+
+#hp{
+  grid-area: hp;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  justify-self: center;
+  font-size: .8rem;
+}
+
+#atk{
+  grid-area: atk;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  justify-self: center;
+  font-size: .8rem;
+}
+
+#def{
+  grid-area: def;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  justify-self: center;
+  font-size: .8rem;
+}
+
+#hpResult{
+  grid-area: hpresult;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  justify-self: center;
+  font-size: .8rem;
+}
+
+#atkResult{
+  grid-area: atkresult;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  justify-self: center;
+  font-size: .7rem;
+}
+
+#defResult{
+  grid-area: defresult;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  justify-self: center;
+  font-size: .7rem;
 }
 
 #type1{
@@ -215,20 +276,6 @@ body, html {
 }
 
 #type2{
-  font-family: 'Press Start 2P', cursive;
-  text-align: center;
-  grid-area: type2;
-  background-color: silver;
-  border-radius: 75px;
-  border: 2px solid black;
-  height: 35px;
-  align-self: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#type3{
   font-family: 'Press Start 2P', cursive;
   text-align: center;
   grid-area: type3;
@@ -251,9 +298,9 @@ body, html {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: "input input input"
-                       "submit btn4 submit2"
-                       ". . ."
+                       "submit btn7 submit2"
                        "btn1 btn2 btn3"
+                       "btn4 btn5 btn6"
 }
 
 #text{
@@ -286,7 +333,7 @@ body, html {
 }
 
 .dummybtns{
-  grid-area: btn4;
+  grid-area: btn7;
   display: grid;
   padding: 2% 0 2% 0;
 
@@ -323,6 +370,27 @@ body, html {
 
 #bluebtnR{
   grid-area: btn3;
+  background-color: aqua;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#bluebtnBR{
+  grid-area: btn4;
+  background-color: aqua;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#bluebtnBM{
+  grid-area: btn5;
+  background-color: aqua;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#bluebtnBL{
+  grid-area: btn6;
   background-color: aqua;
   border-radius: 5px;
   border: 1px solid black;
