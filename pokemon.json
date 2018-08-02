@@ -1,0 +1,28 @@
+{ 
+  "name": "bulbasaur",
+  "image_url": "http://serebii.net/xy/pokemon/001.png",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "stats": [
+  {
+    "hp": 45
+  },
+  {
+    "atk": 49
+  },
+  {
+    "def": 49
+  }
+  ],
+  "abilities": [
+    {
+      "name": "chlorophyll"
+    },
+    {
+      "name": "overgrow"
+    }
+  ]
+
+}

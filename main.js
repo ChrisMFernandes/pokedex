@@ -11,10 +11,15 @@ function test() {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       let data = JSON.parse(this.responseText);
-      console.log(data.stats[3].base_stat)
-      // hpResult.innerHTML = data.stats[5].base_stat;
-      // atkResult.innerHTML = data.stats[4].base_stat;
-      // defResult.innerHTML = data.stats[3].base_stat;
+      let pokeId = data.id;
+      
+      console.log(data.id)
+      hpResult.innerHTML = data.stats[5].base_stat;
+      atkResult.innerHTML = data.stats[4].base_stat;
+      defResult.innerHTML = data.stats[3].base_stat;
+      // ability1.innerHTML = data.stats[]
+      let input = document.getElementById('text');
+      console.log(input.value.toLowerCase());
     }
   };
   xhttp.open("GET", "https://pokeapi.co/api/v2/pokemon/7/", true);
@@ -26,4 +31,6 @@ function clearSelection() {
   hpResult.innerHTML = '';
   atkResult.innerHTML = '';
   defResult.innerHTML = '';
+  type1.innerHTML = 'Type';
+  type1.innerHTML = 'Type';
 }
