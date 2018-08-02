@@ -125,9 +125,10 @@ body, html {
                        ". . ."
 }
 
-#pokeimage{
+#pokeImage{
   grid-area: image;
-  width: 200px;
+  width: 12rem;
+  justify-self: center;
 }
 
 .input{
@@ -194,6 +195,8 @@ body, html {
   grid-area: view;
   background: radial-gradient(#08e208 88%, black);
   border: 2px solid black;
+  min-height: 0;
+  min-width: 0;
   border-radius: 25px;
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -212,6 +215,25 @@ body, html {
   justify-self: center;
   height: 0;
 }
+
+#ability1{
+grid-area: ability1;
+font-family: 'Press Start 2P', cursive;
+margin: 0 0 0 5%;
+font-size: 12px;
+/* overflow: visible; */
+max-width: 40px;
+}
+
+#ability2{
+  grid-area: ability2;
+  font-family: 'Press Start 2P', cursive;
+  justify-self: start;
+  margin: 0;
+  font-size: 12px;
+  overflow: visible;
+  max-width: 40px;
+  }
 
 #hp{
   grid-area: hp;

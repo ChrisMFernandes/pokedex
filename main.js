@@ -5,19 +5,28 @@ let atkResult = document.getElementById('atkResult');
 let defResult = document.getElementById('defResult');
 let type1 = document.getElementById('type1');
 let type2 = document.getElementById('type2');
+let image = document.getElementById('pokeImage');
 
-function test() {
+function getPokemon() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       let data = JSON.parse(this.responseText);
-      console.log(data);
-      
-      // hpResult.innerHTML = data.stats[5].base_stat;
-      // atkResult.innerHTML = data.stats[4].base_stat;
-      // defResult.innerHTML = data.stats[3].base_stat;
-      // ability1.innerHTML = data.stats[]
       let input = document.getElementById('text');
+      for(let i = 0; i < data.length; i++){
+        if(data[i].name === input.value.toLowerCase()){
+          console.log(data[i].image_url)
+          hpResult.innerHTML = data[i].stats[0].hp;
+          atkResult.innerHTML = data[i].stats[1].atk;
+          defResult.innerHTML = data[i].stats[2].def;
+          ability1.innerHTML = data[i].abilities[0];
+          ability2.innerHTML = data[i].abilities[1];
+          image.src = data[i].image_url;
+          
+        }
+      }
+      
+      // ability1.innerHTML = data.stats[]
       console.log(input.value.toLowerCase());
     }
   };
@@ -30,6 +39,10 @@ function clearSelection() {
   hpResult.innerHTML = '';
   atkResult.innerHTML = '';
   defResult.innerHTML = '';
+  image.src = '';
+  ability1.innerHTML = '';
+  ability2.innerHTML = '';
+
   type1.innerHTML = 'Type';
   type1.innerHTML = 'Type';
 }
