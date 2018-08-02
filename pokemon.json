@@ -17,12 +17,30 @@
   }
   ],
   "abilities": [
+    "chlorophyll",
+    "overgrow"
+  ],
+    "name": "Ivysaur",
+    "image_url": "http://serebii.net/xy/pokemon/002.png",
+    "types": [
+      "grass",
+      "poison"
+  ],
+    "stats": [
     {
-      "name": "chlorophyll"
+        "hp": 60
     },
     {
-      "name": "overgrow"
+        "atk": 62
+    },
+    {
+        "def": 63
     }
-  ]
-
+    ],
+    "abilities": [
+      "chlorophyll",
+      "overgrow"
+    ]
 }
+
+

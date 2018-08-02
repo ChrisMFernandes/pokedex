@@ -11,18 +11,17 @@ function test() {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       let data = JSON.parse(this.responseText);
-      let pokeId = data.id;
+      console.log(data);
       
-      console.log(data.id)
-      hpResult.innerHTML = data.stats[5].base_stat;
-      atkResult.innerHTML = data.stats[4].base_stat;
-      defResult.innerHTML = data.stats[3].base_stat;
+      // hpResult.innerHTML = data.stats[5].base_stat;
+      // atkResult.innerHTML = data.stats[4].base_stat;
+      // defResult.innerHTML = data.stats[3].base_stat;
       // ability1.innerHTML = data.stats[]
       let input = document.getElementById('text');
       console.log(input.value.toLowerCase());
     }
   };
-  xhttp.open("GET", "https://pokeapi.co/api/v2/pokemon/7/", true);
+  xhttp.open("GET", "https://raw.githubusercontent.com/ChrisMFernandes/pokedex/master/pokemon.json", true);
   xhttp.send();
 }
 
