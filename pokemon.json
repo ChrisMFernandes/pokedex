@@ -85,7 +85,7 @@
   }
   ],
   "abilities": [
-    "solar-power",
+    "solar power",
     "blaze"
   ]
 },
@@ -107,13 +107,13 @@
   }
   ],
   "abilities": [
-    "solar-power",
+    "solar power",
     "blaze"
   ]
 },
 {
   "name": "charizard",
-  "image_url": "http://serebii.net/xy/pokemon/005.png",
+  "image_url": "http://serebii.net/xy/pokemon/006.png",
   "types": [
     "fire",
     "flying"
@@ -130,8 +130,74 @@
   }
   ],
   "abilities": [
-    "solar-power",
+    "solar power",
     "blaze"
+  ]
+},
+{
+  "name": "squirtle",
+  "image_url": "http://serebii.net/xy/pokemon/007.png",
+  "types": [
+    "water"
+],
+  "stats": [
+  {
+      "hp": 44
+  },
+  {
+      "atk": 48
+  },
+  {
+      "def": 65
+  }
+  ],
+  "abilities": [
+    "rain-dish",
+    "torrent"
+  ]
+},
+{
+  "name": "wartortle",
+  "image_url": "http://serebii.net/xy/pokemon/008.png",
+  "types": [
+    "water"
+],
+  "stats": [
+  {
+      "hp": 59
+  },
+  {
+      "atk": 63
+  },
+  {
+      "def": 80
+  }
+  ],
+  "abilities": [
+    "rain-dish",
+    "torrent"
+  ]
+},
+{
+  "name": "blastoise",
+  "image_url": "http://serebii.net/xy/pokemon/009.png",
+  "types": [
+    "water"
+],
+  "stats": [
+  {
+      "hp": 79
+  },
+  {
+      "atk": 83
+  },
+  {
+      "def": 100
+  }
+  ],
+  "abilities": [
+    "rain-dish",
+    "torrent"
   ]
 }]
 

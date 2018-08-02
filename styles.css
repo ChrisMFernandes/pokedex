@@ -195,8 +195,8 @@ body, html {
   grid-area: view;
   background: radial-gradient(#08e208 88%, black);
   border: 2px solid black;
-  min-height: 0;
-  min-width: 0;
+  min-height: 100%;
+  min-width: 100%;
   border-radius: 25px;
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -223,6 +223,7 @@ margin: 0 0 0 5%;
 font-size: 12px;
 /* overflow: visible; */
 max-width: 40px;
+height: 0;
 }
 
 #ability2{
@@ -233,6 +234,7 @@ max-width: 40px;
   font-size: 12px;
   overflow: visible;
   max-width: 40px;
+  height: 0;
   }
 
 #hp{
