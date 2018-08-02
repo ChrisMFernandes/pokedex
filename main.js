@@ -6,22 +6,35 @@ let defResult = document.getElementById('defResult');
 let type1 = document.getElementById('type1');
 let type2 = document.getElementById('type2');
 let image = document.getElementById('pokeImage');
+let input = document.getElementById('text');
+
+
 
 function getPokemon() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       let data = JSON.parse(this.responseText);
-      let input = document.getElementById('text');
       for(let i = 0; i < data.length; i++){
         if(data[i].name === input.value.toLowerCase()){
-          console.log(data[i].image_url)
+          // console.log(data[i].name)
           hpResult.innerHTML = data[i].stats[0].hp;
           atkResult.innerHTML = data[i].stats[1].atk;
           defResult.innerHTML = data[i].stats[2].def;
           ability1.innerHTML = data[i].abilities[0];
           ability2.innerHTML = data[i].abilities[1];
           image.src = data[i].image_url;
+
+          for(let j = 0; j < data[i].types; i++){
+            console.log(data[i].types[j])
+            if(data[i].types[j] === 'water'){
+              type1.style.color = 'blue';
+              type1.innerHTML = data[i].types[j];
+            } if(data[i].types[j] === 'poison'){
+              type2.style.color = 'purple';
+              type2.innerHTML = data[i].types[j];
+            }
+          }
           
         }
       }
@@ -40,7 +53,9 @@ function clearSelection() {
   image.src = '';
   ability1.innerHTML = '';
   ability2.innerHTML = '';
-
+  input.value = '';
+  type1.style.color = ''
   type1.innerHTML = 'Type';
-  type1.innerHTML = 'Type';
+  type2.style.color = '';
+  type2.innerHTML = 'Type';
 }

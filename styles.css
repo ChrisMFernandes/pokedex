@@ -251,6 +251,7 @@ height: 0;
   margin: 0;
   justify-self: center;
   font-size: .8rem;
+  height: 0;
 }
 
 #def{
@@ -259,6 +260,7 @@ height: 0;
   margin: 0;
   justify-self: center;
   font-size: .8rem;
+  height: 0;
 }
 
 #hpResult{
@@ -267,6 +269,7 @@ height: 0;
   margin: 0;
   justify-self: center;
   font-size: .7rem;
+  height: 0;
 }
 
 #atkResult{
