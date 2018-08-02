@@ -25,8 +25,6 @@ function getPokemon() {
           
         }
       }
-      
-      // ability1.innerHTML = data.stats[]
       console.log(input.value.toLowerCase());
     }
   };

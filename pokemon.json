@@ -43,6 +43,96 @@
       "chlorophyll",
       "overgrow"
     ]
+},
+{
+  "name": "venusaur",
+  "image_url": "http://serebii.net/xy/pokemon/003.png",
+  "types": [
+    "grass",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 80
+  },
+  {
+      "atk": 82
+  },
+  {
+      "def": 83
+  }
+  ],
+  "abilities": [
+    "chlorophyll",
+    "overgrow"
+  ]
+},
+{
+  "name": "charmander",
+  "image_url": "http://serebii.net/xy/pokemon/004.png",
+  "types": [
+    "fire"
+],
+  "stats": [
+  {
+      "hp": 39
+  },
+  {
+      "atk": 52
+  },
+  {
+      "def": 43
+  }
+  ],
+  "abilities": [
+    "solar-power",
+    "blaze"
+  ]
+},
+{
+  "name": "charmeleon",
+  "image_url": "http://serebii.net/xy/pokemon/005.png",
+  "types": [
+    "fire"
+],
+  "stats": [
+  {
+      "hp": 58
+  },
+  {
+      "atk": 64
+  },
+  {
+      "def": 58
+  }
+  ],
+  "abilities": [
+    "solar-power",
+    "blaze"
+  ]
+},
+{
+  "name": "charizard",
+  "image_url": "http://serebii.net/xy/pokemon/005.png",
+  "types": [
+    "fire",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 78
+  },
+  {
+      "atk": 84
+  },
+  {
+      "def": 78
+  }
+  ],
+  "abilities": [
+    "solar-power",
+    "blaze"
+  ]
 }]
 
 
