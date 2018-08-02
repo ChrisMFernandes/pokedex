@@ -1,4 +1,4 @@
-{ 
+[{ 
   "name": "bulbasaur",
   "image_url": "http://serebii.net/xy/pokemon/001.png",
   "types": [
@@ -19,7 +19,9 @@
   "abilities": [
     "chlorophyll",
     "overgrow"
-  ],
+  ]
+},
+{
     "name": "Ivysaur",
     "image_url": "http://serebii.net/xy/pokemon/002.png",
     "types": [
@@ -41,6 +43,6 @@
       "chlorophyll",
       "overgrow"
     ]
-}
+}]
 
 
