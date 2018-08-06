@@ -199,6 +199,1186 @@
     "rain-dish",
     "torrent"
   ]
-}]
+},
+{
+  "name": "caterpie",
+  "image_url": "http://serebii.net/xy/pokemon/010.png",
+  "types": [
+    "bug"
+],
+  "stats": [
+  {
+      "hp": 45
+  },
+  {
+      "atk": 30
+  },
+  {
+      "def": 25
+  }
+  ],
+  "abilities": [
+    "run-away",
+    "shield-dust"
+  ]
+},
+{
+  "name": "metapod",
+  "image_url": "http://serebii.net/xy/pokemon/011.png",
+  "types": [
+    "bug"
+],
+  "stats": [
+  {
+      "hp": 50
+  },
+  {
+      "atk": 20
+  },
+  {
+      "def": 55
+  }
+  ],
+  "abilities": [
+    "shed-skin"
+  ]
+},
+{
+  "name": "butterfree",
+  "image_url": "http://serebii.net/xy/pokemon/012.png",
+  "types": [
+    "bug",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 60
+  },
+  {
+      "atk": 45
+  },
+  {
+      "def": 50
+  }
+  ],
+  "abilities": [
+    "tinted-lens",
+    "compound-eyes"
+  ]
+},
+{
+  "name": "kakuna",
+  "image_url": "http://serebii.net/xy/pokemon/014.png",
+  "types": [
+    "bug",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 40
+  },
+  {
+      "atk": 35
+  },
+  {
+      "def": 30
+  }
+  ],
+  "abilities": [
+    "shed-skin"
+  ]
+},
+// need to go back through the pokeAPI and grab hp, atk, and def as well as abilities.
+{
+  "name": "beedrill",
+  "image_url": "http://serebii.net/xy/pokemon/015.png",
+  "types": [
+    "bug",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "pidgey",
+  "image_url": "http://serebii.net/xy/pokemon/016.png",
+  "types": [
+    "normal",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "pidgeotto",
+  "image_url": "http://serebii.net/xy/pokemon/017.png",
+  "types": [
+    "normal",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "pidgeot",
+  "image_url": "http://serebii.net/xy/pokemon/018.png",
+  "types": [
+    "normal",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "rattata",
+  "image_url": "http://serebii.net/xy/pokemon/019.png",
+  "types": [
+    "normal"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "raticate",
+  "image_url": "http://serebii.net/xy/pokemon/020.png",
+  "types": [
+    "normal"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "spearow",
+  "image_url": "http://serebii.net/xy/pokemon/021.png",
+  "types": [
+    "normal",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "fearow",
+  "image_url": "http://serebii.net/xy/pokemon/022.png",
+  "types": [
+    "normal",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "ekans",
+  "image_url": "http://serebii.net/xy/pokemon/023.png",
+  "types": [
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "arbok",
+  "image_url": "http://serebii.net/xy/pokemon/024.png",
+  "types": [
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "pikachu",
+  "image_url": "http://serebii.net/xy/pokemon/025.png",
+  "types": [
+    "electric"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "raichu",
+  "image_url": "http://serebii.net/xy/pokemon/026.png",
+  "types": [
+    "electric"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "sandshrew",
+  "image_url": "http://serebii.net/xy/pokemon/027.png",
+  "types": [
+    "ground"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "sandslash",
+  "image_url": "http://serebii.net/xy/pokemon/028.png",
+  "types": [
+    "ground"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "nidoran &#9792",
+  "image_url": "http://serebii.net/xy/pokemon/029.png",
+  "types": [
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "nidorina",
+  "image_url": "http://serebii.net/xy/pokemon/030.png",
+  "types": [
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "nidoqueen",
+  "image_url": "http://serebii.net/xy/pokemon/031.png",
+  "types": [
+    "poison",
+    "ground"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "nidoran &#9794",
+  "image_url": "http://serebii.net/xy/pokemon/032.png",
+  "types": [
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "nidorino",
+  "image_url": "http://serebii.net/xy/pokemon/033.png",
+  "types": [
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "nidoking",
+  "image_url": "http://serebii.net/xy/pokemon/034.png",
+  "types": [
+    "poison",
+    "ground"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "clefairy",
+  "image_url": "http://serebii.net/xy/pokemon/035.png",
+  "types": [
+    "normal"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "clefable",
+  "image_url": "http://serebii.net/xy/pokemon/036.png",
+  "types": [
+    "normal"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "vulpix",
+  "image_url": "http://serebii.net/xy/pokemon/037.png",
+  "types": [
+    "fire"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "ninetales",
+  "image_url": "http://serebii.net/xy/pokemon/038.png",
+  "types": [
+    "fire"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "jigglypuff",
+  "image_url": "http://serebii.net/xy/pokemon/039.png",
+  "types": [
+    "normal"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "wigglytuff",
+  "image_url": "http://serebii.net/xy/pokemon/040.png",
+  "types": [
+    "normal"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "zubat",
+  "image_url": "http://serebii.net/xy/pokemon/041.png",
+  "types": [
+    "poison",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "golbat",
+  "image_url": "http://serebii.net/xy/pokemon/042.png",
+  "types": [
+    "poison",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "oddish",
+  "image_url": "http://serebii.net/xy/pokemon/043.png",
+  "types": [
+    "grass",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "gloom",
+  "image_url": "http://serebii.net/xy/pokemon/044.png",
+  "types": [
+    "grass",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "vileplume",
+  "image_url": "http://serebii.net/xy/pokemon/045.png",
+  "types": [
+    "grass",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "paras",
+  "image_url": "http://serebii.net/xy/pokemon/046.png",
+  "types": [
+    "bug",
+    "grass"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "parasect",
+  "image_url": "http://serebii.net/xy/pokemon/047.png",
+  "types": [
+    "bug",
+    "grass"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "venonat",
+  "image_url": "http://serebii.net/xy/pokemon/048.png",
+  "types": [
+    "bug",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "venomoth",
+  "image_url": "http://serebii.net/xy/pokemon/049.png",
+  "types": [
+    "bug",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "diglett",
+  "image_url": "http://serebii.net/xy/pokemon/050.png",
+  "types": [
+    "ground"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "dugtrio",
+  "image_url": "http://serebii.net/xy/pokemon/051.png",
+  "types": [
+    "ground"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "meowth",
+  "image_url": "http://serebii.net/xy/pokemon/052.png",
+  "types": [
+    "normal"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "persian",
+  "image_url": "http://serebii.net/xy/pokemon/053.png",
+  "types": [
+    "normal"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "psyduck",
+  "image_url": "http://serebii.net/xy/pokemon/054.png",
+  "types": [
+    "water"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "golduck",
+  "image_url": "http://serebii.net/xy/pokemon/055.png",
+  "types": [
+    "water"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "mankey",
+  "image_url": "http://serebii.net/xy/pokemon/056.png",
+  "types": [
+    "fighting"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "primape",
+  "image_url": "http://serebii.net/xy/pokemon/057.png",
+  "types": [
+    "fighting"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "growlithe",
+  "image_url": "http://serebii.net/xy/pokemon/058.png",
+  "types": [
+    "fire"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "arcanine",
+  "image_url": "http://serebii.net/xy/pokemon/059.png",
+  "types": [
+    "fire"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "poliwag",
+  "image_url": "http://serebii.net/xy/pokemon/060.png",
+  "types": [
+    "water"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "poliwhirl",
+  "image_url": "http://serebii.net/xy/pokemon/061.png",
+  "types": [
+    "water"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "poliwrath",
+  "image_url": "http://serebii.net/xy/pokemon/062.png",
+  "types": [
+    "water",
+    "fighting"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "abra",
+  "image_url": "http://serebii.net/xy/pokemon/063.png",
+  "types": [
+    "psychic"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "kadabra",
+  "image_url": "http://serebii.net/xy/pokemon/064.png",
+  "types": [
+    "psychic"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "alakazam",
+  "image_url": "http://serebii.net/xy/pokemon/065.png",
+  "types": [
+    "psychic"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+}
+]
+
 
 
