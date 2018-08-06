@@ -1377,6 +1377,439 @@
   "abilities": [
     
   ]
+},
+{
+  "name": "machop",
+  "image_url": "http://serebii.net/xy/pokemon/066.png",
+  "types": [
+    "fighting"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "machoke",
+  "image_url": "http://serebii.net/xy/pokemon/067.png",
+  "types": [
+    "fighting"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "machamp",
+  "image_url": "http://serebii.net/xy/pokemon/068.png",
+  "types": [
+    "psychic"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "bellsprout",
+  "image_url": "http://serebii.net/xy/pokemon/069.png",
+  "types": [
+    "grass",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "weepinbell",
+  "image_url": "http://serebii.net/xy/pokemon/070.png",
+  "types": [
+    "grass",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "victreebel",
+  "image_url": "http://serebii.net/xy/pokemon/071.png",
+  "types": [
+    "grass",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "tentacool",
+  "image_url": "http://serebii.net/xy/pokemon/072.png",
+  "types": [
+    "water",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "tentacruel",
+  "image_url": "http://serebii.net/xy/pokemon/073.png",
+  "types": [
+    "water",
+    "poison"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "geodude",
+  "image_url": "http://serebii.net/xy/pokemon/074.png",
+  "types": [
+    "rock",
+    "ground"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "graveler",
+  "image_url": "http://serebii.net/xy/pokemon/075.png",
+  "types": [
+    "rock",
+    "ground"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "golem",
+  "image_url": "http://serebii.net/xy/pokemon/076.png",
+  "types": [
+    "rock",
+    "ground"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "ponyta",
+  "image_url": "http://serebii.net/xy/pokemon/077.png",
+  "types": [
+    "fire"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "rapidash",
+  "image_url": "http://serebii.net/xy/pokemon/078.png",
+  "types": [
+    "fire"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "slowpoke",
+  "image_url": "http://serebii.net/xy/pokemon/079.png",
+  "types": [
+    "water",
+    "psychic"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "slowbro",
+  "image_url": "http://serebii.net/xy/pokemon/080.png",
+  "types": [
+    "water",
+    "psychic"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "magnemite",
+  "image_url": "http://serebii.net/xy/pokemon/081.png",
+  "types": [
+    "electric"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "magneton",
+  "image_url": "http://serebii.net/xy/pokemon/082.png",
+  "types": [
+    "electric"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "farfetch'd",
+  "image_url": "http://serebii.net/xy/pokemon/083.png",
+  "types": [
+    "normal",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "doduo",
+  "image_url": "http://serebii.net/xy/pokemon/084.png",
+  "types": [
+    "normal",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
+},
+{
+  "name": "dodrio",
+  "image_url": "http://serebii.net/xy/pokemon/085.png",
+  "types": [
+    "normal",
+    "flying"
+],
+  "stats": [
+  {
+      "hp": 
+  },
+  {
+      "atk": 
+  },
+  {
+      "def": 
+  }
+  ],
+  "abilities": [
+    
+  ]
 }
 ]
 
