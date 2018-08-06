@@ -1810,7 +1810,49 @@
   "abilities": [
     
   ]
-}
+},
+{
+    "name": "seel",
+    "image_url": "http://serebii.net/xy/pokemon/086.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "dewgong",
+    "image_url": "http://serebii.net/xy/pokemon/087.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+  }
 ]
 
 
