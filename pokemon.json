@@ -1852,8 +1852,1374 @@
     "abilities": [
       
     ]
-  }
+},
+{
+    "name": "grimer",
+    "image_url": "http://serebii.net/xy/pokemon/088.png",
+    "types": [
+      "poison"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "muk",
+    "image_url": "http://serebii.net/xy/pokemon/089.png",
+    "types": [
+      "poison"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "shellder",
+    "image_url": "http://serebii.net/xy/pokemon/090.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "cloyster",
+    "image_url": "http://serebii.net/xy/pokemon/091.png",
+    "types": [
+      "water",
+      "ice"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "gastly",
+    "image_url": "http://serebii.net/xy/pokemon/092.png",
+    "types": [
+      "ghost",
+      "poison"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "haunter",
+    "image_url": "http://serebii.net/xy/pokemon/093.png",
+    "types": [
+      "ghost",
+      "poison"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "gengar",
+    "image_url": "http://serebii.net/xy/pokemon/094.png",
+    "types": [
+      "ghost",
+      "poison"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "onix",
+    "image_url": "http://serebii.net/xy/pokemon/095.png",
+    "types": [
+      "rock",
+      "ground"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "drowzee",
+    "image_url": "http://serebii.net/xy/pokemon/096.png",
+    "types": [
+      "psychic"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "hypno",
+    "image_url": "http://serebii.net/xy/pokemon/097.png",
+    "types": [
+      "psychic"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "krabby",
+    "image_url": "http://serebii.net/xy/pokemon/098.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "kingler",
+    "image_url": "http://serebii.net/xy/pokemon/099.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "voltorb",
+    "image_url": "http://serebii.net/xy/pokemon/100.png",
+    "types": [
+      "electric"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "electrode",
+    "image_url": "http://serebii.net/xy/pokemon/101.png",
+    "types": [
+      "electric"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "exeggcute",
+    "image_url": "http://serebii.net/xy/pokemon/102.png",
+    "types": [
+      "grass",
+      "psychic"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "exeggutor",
+    "image_url": "http://serebii.net/xy/pokemon/103.png",
+    "types": [
+      "grass",
+      "psychic"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "cubone",
+    "image_url": "http://serebii.net/xy/pokemon/104.png",
+    "types": [
+      "ground"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "marowak",
+    "image_url": "http://serebii.net/xy/pokemon/105.png",
+    "types": [
+      "ground"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "hitmonlee",
+    "image_url": "http://serebii.net/xy/pokemon/106.png",
+    "types": [
+      "fighting"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "hitmonchan",
+    "image_url": "http://serebii.net/xy/pokemon/107.png",
+    "types": [
+      "fighting"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "lickitung",
+    "image_url": "http://serebii.net/xy/pokemon/108.png",
+    "types": [
+      "normal"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "koffing",
+    "image_url": "http://serebii.net/xy/pokemon/109.png",
+    "types": [
+      "poison"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "weezing",
+    "image_url": "http://serebii.net/xy/pokemon/110.png",
+    "types": [
+      "poison"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "rhyhorn",
+    "image_url": "http://serebii.net/xy/pokemon/111.png",
+    "types": [
+      "ground",
+      "rock"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "rhydon",
+    "image_url": "http://serebii.net/xy/pokemon/112.png",
+    "types": [
+      "ground",
+      "rock"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "chansey",
+    "image_url": "http://serebii.net/xy/pokemon/113.png",
+    "types": [
+      "normal"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "tangela",
+    "image_url": "http://serebii.net/xy/pokemon/114.png",
+    "types": [
+      "grass"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "kangaskhan",
+    "image_url": "http://serebii.net/xy/pokemon/115.png",
+    "types": [
+      "normal"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "horsea",
+    "image_url": "http://serebii.net/xy/pokemon/116.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "seadra",
+    "image_url": "http://serebii.net/xy/pokemon/117.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "goldeen",
+    "image_url": "http://serebii.net/xy/pokemon/118.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "seaking",
+    "image_url": "http://serebii.net/xy/pokemon/119.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "staryu",
+    "image_url": "http://serebii.net/xy/pokemon/120.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "starmie",
+    "image_url": "http://serebii.net/xy/pokemon/121.png",
+    "types": [
+      "water",
+      "psychic"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "mr. mime",
+    "image_url": "http://serebii.net/xy/pokemon/122.png",
+    "types": [
+      "psychic"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "scyther",
+    "image_url": "http://serebii.net/xy/pokemon/123.png",
+    "types": [
+      "bug",
+      "flying"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "jynx",
+    "image_url": "http://serebii.net/xy/pokemon/124.png",
+    "types": [
+      "ice",
+      "psychic"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "electabuzz",
+    "image_url": "http://serebii.net/xy/pokemon/125.png",
+    "types": [
+      "electric"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "magmar",
+    "image_url": "http://serebii.net/xy/pokemon/126.png",
+    "types": [
+      "fire"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "pinsir",
+    "image_url": "http://serebii.net/xy/pokemon/127.png",
+    "types": [
+      "bug"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "tauros",
+    "image_url": "http://serebii.net/xy/pokemon/128.png",
+    "types": [
+      "normal"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "magikarp",
+    "image_url": "http://serebii.net/xy/pokemon/129.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "gyarados",
+    "image_url": "http://serebii.net/xy/pokemon/130.png",
+    "types": [
+      "water",
+      "flying"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "lapras",
+    "image_url": "http://serebii.net/xy/pokemon/131.png",
+    "types": [
+      "water",
+      "ice"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "ditto",
+    "image_url": "http://serebii.net/xy/pokemon/132.png",
+    "types": [
+      "normal"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "eevee",
+    "image_url": "http://serebii.net/xy/pokemon/133.png",
+    "types": [
+      "normal"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "vaporeon",
+    "image_url": "http://serebii.net/xy/pokemon/134.png",
+    "types": [
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "jolteon",
+    "image_url": "http://serebii.net/xy/pokemon/135.png",
+    "types": [
+      "electric"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "flareon",
+    "image_url": "http://serebii.net/xy/pokemon/136.png",
+    "types": [
+      "fire"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "porygon",
+    "image_url": "http://serebii.net/xy/pokemon/137.png",
+    "types": [
+      "normal"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "omanyte",
+    "image_url": "http://serebii.net/xy/pokemon/138.png",
+    "types": [
+      "rock",
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "omastar",
+    "image_url": "http://serebii.net/xy/pokemon/139.png",
+    "types": [
+      "rock",
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "kabuto",
+    "image_url": "http://serebii.net/xy/pokemon/140.png",
+    "types": [
+      "rock",
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "kabutops",
+    "image_url": "http://serebii.net/xy/pokemon/141.png",
+    "types": [
+      "rock",
+      "water"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "aerodactyl",
+    "image_url": "http://serebii.net/xy/pokemon/142.png",
+    "types": [
+      "rock",
+      "flying"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "snorlax",
+    "image_url": "http://serebii.net/xy/pokemon/143.png",
+    "types": [
+      "normal"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "articuno",
+    "image_url": "http://serebii.net/xy/pokemon/144.png",
+    "types": [
+      "ice",
+      "flying"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "zapdos",
+    "image_url": "http://serebii.net/xy/pokemon/145.png",
+    "types": [
+      "electric",
+      "flying"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "moltres",
+    "image_url": "http://serebii.net/xy/pokemon/146.png",
+    "types": [
+      "fire",
+      "flying"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "dratini",
+    "image_url": "http://serebii.net/xy/pokemon/147.png",
+    "types": [
+      "dragon"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "dragonair",
+    "image_url": "http://serebii.net/xy/pokemon/148.png",
+    "types": [
+      "dragon"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "dragonite",
+    "image_url": "http://serebii.net/xy/pokemon/149.png",
+    "types": [
+      "dragon",
+      "flying"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "mewtwo",
+    "image_url": "http://serebii.net/xy/pokemon/150.png",
+    "types": [
+      "psychic"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+},
+{
+    "name": "mew",
+    "image_url": "http://serebii.net/xy/pokemon/151.png",
+    "types": [
+      "psychic"
+  ],
+    "stats": [
+    {
+        "hp": 
+    },
+    {
+        "atk": 
+    },
+    {
+        "def": 
+    }
+    ],
+    "abilities": [
+      
+    ]
+}
 ]
-
 
 
