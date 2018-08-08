@@ -533,7 +533,7 @@
   }
   ],
   "abilities": [
-    "lighning-rod",
+    "lightning-rod",
     "static"
   ]
 },
@@ -2420,17 +2420,17 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 65
     },
     {
-        "atk": 
+        "atk": 90
     },
     {
-        "def": 
+        "def": 120
     }
     ],
     "abilities": [
-      
+      "levitate"
     ]
 },
 {
@@ -2442,17 +2442,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 95
     },
     {
-        "atk": 
+        "atk": 30
     },
     {
-        "def": 
+        "def": 30
     }
     ],
     "abilities": [
-      
+      "lightning-rod",
+      "rock-head"
     ]
 },
 {
@@ -2464,17 +2465,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 105
     },
     {
-        "atk": 
+        "atk": 130
     },
     {
-        "def": 
+        "def": 120
     }
     ],
     "abilities": [
-      
+      "lightning-rod",
+      "rock-head"
     ]
 },
 {
@@ -2485,17 +2487,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 250
     },
     {
-        "atk": 
+        "atk": 5
     },
     {
-        "def": 
+        "def": 5
     }
     ],
     "abilities": [
-      
+      "natural-cure",
+      "serene-grace"
     ]
 },
 {
@@ -2506,17 +2509,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 65
     },
     {
-        "atk": 
+        "atk": 55
     },
     {
-        "def": 
+        "def": 115
     }
     ],
     "abilities": [
-      
+      "chlorophyll",
+      "leaf-guard"
     ]
 },
 {
@@ -2527,17 +2531,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 105
     },
     {
-        "atk": 
+        "atk": 95
     },
     {
-        "def": 
+        "def": 80
     }
     ],
     "abilities": [
-      
+      "early-bird",
+      "scrappy"
     ]
 },
 {
@@ -2548,17 +2553,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 30
     },
     {
-        "atk": 
+        "atk": 40
     },
     {
-        "def": 
+        "def": 70
     }
     ],
     "abilities": [
-      
+      "swift-swim",
+      "sniper"
     ]
 },
 {
@@ -2569,17 +2575,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 55
     },
     {
-        "atk": 
+        "atk": 65
     },
     {
-        "def": 
+        "def": 95
     }
     ],
     "abilities": [
-      
+      "poison-point",
+      "sniper"
     ]
 },
 {
@@ -2590,17 +2597,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 45
     },
     {
-        "atk": 
+        "atk": 67
     },
     {
-        "def": 
+        "def": 60
     }
     ],
     "abilities": [
-      
+      "swift-swim",
+      "water-veil"
     ]
 },
 {
@@ -2611,17 +2619,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 80
     },
     {
-        "atk": 
+        "atk": 92
     },
     {
-        "def": 
+        "def": 65
     }
     ],
     "abilities": [
-      
+      "swift-swim",
+      "water-veil"
     ]
 },
 {
@@ -2632,17 +2641,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 30
     },
     {
-        "atk": 
+        "atk": 45
     },
     {
-        "def": 
+        "def": 55
     }
     ],
     "abilities": [
-      
+      "illuminate",
+      "natural-cure"
     ]
 },
 {
@@ -2654,17 +2664,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 60
     },
     {
-        "atk": 
+        "atk": 75
     },
     {
-        "def": 
+        "def": 85
     }
     ],
     "abilities": [
-      
+      "illuminate",
+      "natural-cure"
     ]
 },
 {
@@ -2675,17 +2686,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 40
     },
     {
-        "atk": 
+        "atk": 45
     },
     {
-        "def": 
+        "def": 65
     }
     ],
     "abilities": [
-      
+      "soundproof",
+      "filter"
     ]
 },
 {
@@ -2697,17 +2709,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 70
     },
     {
-        "atk": 
+        "atk": 110
     },
     {
-        "def": 
+        "def": 80
     }
     ],
     "abilities": [
-      
+      "swarm",
+      "technician"
     ]
 },
 {
@@ -2719,17 +2732,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 65
     },
     {
-        "atk": 
+        "atk": 50
     },
     {
-        "def": 
+        "def": 35
     }
     ],
     "abilities": [
-      
+      "oblivous",
+      "forewarn"
     ]
 },
 {
@@ -2740,17 +2754,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 65
     },
     {
-        "atk": 
+        "atk": 83
     },
     {
-        "def": 
+        "def": 57
     }
     ],
     "abilities": [
-      
+      "static",
+      "vital-spirit"
     ]
 },
 {
@@ -2761,17 +2776,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 65
     },
     {
-        "atk": 
+        "atk": 95
     },
     {
-        "def": 
+        "def": 57
     }
     ],
     "abilities": [
-      
+      "flame-body",
+      "vital-spirit"
     ]
 },
 {
@@ -2782,17 +2798,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 65
     },
     {
-        "atk": 
+        "atk": 125
     },
     {
-        "def": 
+        "def": 65
     }
     ],
     "abilities": [
-      
+      "hyper-cutter",
+      "mold-breaker"
     ]
 },
 {
@@ -2803,17 +2820,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 75
     },
     {
-        "atk": 
+        "atk": 100
     },
     {
-        "def": 
+        "def": 95
     }
     ],
     "abilities": [
-      
+      "intimidate",
+      "anger-point"
     ]
 },
 {
@@ -2824,17 +2842,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 20
     },
     {
-        "atk": 
+        "atk": 10
     },
     {
-        "def": 
+        "def": 55
     }
     ],
     "abilities": [
-      
+      "swift-swim",
+      "rattled"
     ]
 },
 {
@@ -2846,17 +2865,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 95
     },
     {
-        "atk": 
+        "atk": 125
     },
     {
-        "def": 
+        "def": 79
     }
     ],
     "abilities": [
-      
+      "intimidate",
+      "moxie"
     ]
 },
 {
@@ -2868,17 +2888,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 130
     },
     {
-        "atk": 
+        "atk": 85
     },
     {
-        "def": 
+        "def": 80
     }
     ],
     "abilities": [
-      
+      "water-absorb",
+      "shell-armor"
     ]
 },
 {
@@ -2889,17 +2910,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 48
     },
     {
-        "atk": 
+        "atk": 48
     },
     {
-        "def": 
+        "def": 48
     }
     ],
     "abilities": [
-      
+      "limber",
+      "imposter"
     ]
 },
 {
@@ -2910,17 +2932,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 55
     },
     {
-        "atk": 
+        "atk": 55
     },
     {
-        "def": 
+        "def": 50
     }
     ],
     "abilities": [
-      
+      "run-away",
+      "adaptability"
     ]
 },
 {
@@ -2931,17 +2954,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 130
     },
     {
-        "atk": 
+        "atk": 65
     },
     {
-        "def": 
+        "def": 60
     }
     ],
     "abilities": [
-      
+      "water-absorb",
+      "hydration"
     ]
 },
 {
@@ -2952,17 +2976,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 65
     },
     {
-        "atk": 
+        "atk": 65
     },
     {
-        "def": 
+        "def": 60
     }
     ],
     "abilities": [
-      
+      "volt-absorb",
+      "quick-feet"
     ]
 },
 {
@@ -2973,17 +2998,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 65
     },
     {
-        "atk": 
+        "atk": 130
     },
     {
-        "def": 
+        "def": 60
     }
     ],
     "abilities": [
-      
+      "flash-fire",
+      "guts"
     ]
 },
 {
@@ -2994,17 +3020,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 65
     },
     {
-        "atk": 
+        "atk": 60
     },
     {
-        "def": 
+        "def": 70
     }
     ],
     "abilities": [
-      
+      "trace",
+      "download"
     ]
 },
 {
@@ -3016,17 +3043,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 35
     },
     {
-        "atk": 
+        "atk": 40
     },
     {
-        "def": 
+        "def": 100
     }
     ],
     "abilities": [
-      
+      "swift-swim",
+      "shell-armor"
     ]
 },
 {
@@ -3038,17 +3066,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 70
     },
     {
-        "atk": 
+        "atk": 60
     },
     {
-        "def": 
+        "def": 125
     }
     ],
     "abilities": [
-      
+      "swift-swim",
+      "shell-armor"
     ]
 },
 {
@@ -3060,17 +3089,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 30
     },
     {
-        "atk": 
+        "atk": 80
     },
     {
-        "def": 
+        "def": 90
     }
     ],
     "abilities": [
-      
+      "swift-swim",
+      "battle-armor"
     ]
 },
 {
@@ -3082,17 +3112,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 60
     },
     {
-        "atk": 
+        "atk": 115
     },
     {
-        "def": 
+        "def": 105
     }
     ],
     "abilities": [
-      
+      "swift-swim",
+      "battle-armor"
     ]
 },
 {
@@ -3104,17 +3135,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 80
     },
     {
-        "atk": 
+        "atk": 105
     },
     {
-        "def": 
+        "def": 65
     }
     ],
     "abilities": [
-      
+      "rock-head",
+      "pressure"
     ]
 },
 {
@@ -3125,17 +3157,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 160
     },
     {
-        "atk": 
+        "atk": 110
     },
     {
-        "def": 
+        "def": 65
     }
     ],
     "abilities": [
-      
+      "immunity",
+      "thick-fat"
     ]
 },
 {
@@ -3147,17 +3180,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 90
     },
     {
-        "atk": 
+        "atk": 85
     },
     {
-        "def": 
+        "def": 100
     }
     ],
     "abilities": [
-      
+      "pressure",
+      "snow-cloak"
     ]
 },
 {
@@ -3169,17 +3203,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 90
     },
     {
-        "atk": 
+        "atk": 90
     },
     {
-        "def": 
+        "def": 85
     }
     ],
     "abilities": [
-      
+      "pressure",
+      "static"
     ]
 },
 {
@@ -3191,17 +3226,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 90
     },
     {
-        "atk": 
+        "atk": 100
     },
     {
-        "def": 
+        "def": 90
     }
     ],
     "abilities": [
-      
+      "pressure",
+      "flame-body"
     ]
 },
 {
@@ -3212,17 +3248,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 41
     },
     {
-        "atk": 
+        "atk": 64
     },
     {
-        "def": 
+        "def": 45
     }
     ],
     "abilities": [
-      
+      "shed-skin",
+      "marvel-scale"
     ]
 },
 {
@@ -3233,17 +3270,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 61
     },
     {
-        "atk": 
+        "atk": 84
     },
     {
-        "def": 
+        "def": 65
     }
     ],
     "abilities": [
-      
+      "shed-skin",
+      "marvel-scale"
     ]
 },
 {
@@ -3255,17 +3293,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 91
     },
     {
-        "atk": 
+        "atk": 134
     },
     {
-        "def": 
+        "def": 95
     }
     ],
     "abilities": [
-      
+      "inner-focus",
+      "multiscale"
     ]
 },
 {
@@ -3276,17 +3315,18 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 106
     },
     {
-        "atk": 
+        "atk": 110
     },
     {
-        "def": 
+        "def": 90
     }
     ],
     "abilities": [
-      
+     "pressure",
+     "unnerve" 
     ]
 },
 {
@@ -3297,17 +3337,17 @@
   ],
     "stats": [
     {
-        "hp": 
+        "hp": 100
     },
     {
-        "atk": 
+        "atk": 100
     },
     {
-        "def": 
+        "def": 100
     }
     ],
     "abilities": [
-      
+      "synchronize"
     ]
 }
 ]
