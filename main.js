@@ -30,18 +30,16 @@ function getPokemon() {
           ability2.innerHTML = data[i].abilities[1];
           image.src = data[i].image_url;
           
-          // for(let j = 0; j < data[i].types.length; j++){
-          //   if(data[i].types[j] === 'grass'){
-          //     type1.style.color = 'green';
-          //   checkType();
-          //     type1.innerHTML = data[i].types[j];
-          //     type2.innerHTML = data[i].types[j];
-          //   } 
-          //   if(data[i].types[j] === 'poison'){
-          //     type2.style.color = 'purple';
-          //     type2.innerHTML = data[i].types[j];
-          //   }
-          // }
+          for(let j = 0; j < data[i].types.length; j++){
+            if(data[i].types[j] === 'grass'){
+              type1.style.color = 'green';
+              type1.innerHTML = data[i].types[j];
+            } 
+            else if(data[i].types[j] === 'poison'){
+              type2.style.color = 'purple';
+              type2.innerHTML = data[i].types[j];
+            }
+          }
           
         }
       }
