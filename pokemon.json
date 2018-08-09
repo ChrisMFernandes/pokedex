@@ -288,7 +288,6 @@
     "shed-skin"
   ]
 },
-// need to go back through the pokeAPI and grab hp, atk, and def as well as abilities.
 {
   "name": "beedrill",
   "image_url": "http://serebii.net/xy/pokemon/015.png",
