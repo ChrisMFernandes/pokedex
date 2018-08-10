@@ -8,13 +8,6 @@ let type2 = document.getElementById('type2');
 let image = document.getElementById('pokeImage');
 let input = document.getElementById('text');
 
-// function checkType(){
-//   if(type1.innerHTML === 'grass' ){
-//     type1.style.color = 'green';
-//   }
-//   console.log(type1.innerHTML);
-// }
-
 function getPokemon() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -38,6 +31,46 @@ function getPokemon() {
             else if(data[i].types[j] === 'poison'){
               type2.style.color = 'purple';
               type2.innerHTML = data[i].types[j];
+            }
+            else if(data[i].types[j] === 'ghost'){
+              type1.style.color = 'violet'
+              type1.innerHTML = data[i].types[j];
+            }
+            else if(data[i].types[j] === 'fire'){
+              type1.style.color = 'red'
+              type1.innerHTML = data[i].types[j];
+            }
+            else if(data[i].types[j] === 'flying'){
+              type2.style.color = 'orange'
+              type2.innerHTML = data[i].types[j];
+            }
+            else if(data[i].types[j] === 'water'){
+              type1.style.color = 'blue'
+              type1.innerHTML = data[i].types[j];
+            }
+            else if(data[i].types[j] === 'bug'){
+              type1.style.color = 'green'
+              type1.innerHTML = data[i].types[j];
+            }
+            else if(data[i].types[j] === 'normal'){
+              type1.style.color = 'black'
+              type1.innerHTML = data[i].types[j];
+            }
+            else if(data[i].types[j] === 'electric'){
+              type1.style.color = 'yellow'
+              type1.innerHTML = data[i].types[j];
+            }
+            else if(data[i].types[j] === 'ground'){
+              type1.style.color = 'brown'
+              type1.innerHTML = data[i].types[j];
+            }
+            else if(data[i].types[j] === 'fighting'){
+              type1.style.color = 'red'
+              type1.innerHTML = data[i].types[j];
+            }
+            else if(data[i].types[j] === 'rock'){
+              type1.style.color = 'black'
+              type1.innerHTML = data[i].types[j];
             }
           }
           
