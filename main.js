@@ -8,12 +8,14 @@ let type2 = document.getElementById('type2');
 let image = document.getElementById('pokeImage');
 let input = document.getElementById('text');
 
+// make the call
 function getPokemon() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       let data = JSON.parse(this.responseText);
-      
+ 
+// loop through JSON and append data to page
       for(let i = 0; i < data.length; i++){
         if(data[i].name == input.value.toLowerCase()){
           hpResult.innerHTML = data[i].stats[0].hp;
@@ -22,7 +24,13 @@ function getPokemon() {
           ability1.innerHTML = data[i].abilities[0];
           ability2.innerHTML = data[i].abilities[1];
           image.src = data[i].image_url;
-          
+
+//  if pokemon only has one ability pass nothing to browser
+          if(ability2.innerHTML === 'undefined'){
+            ability2.innerHTML = '';
+          }
+
+// loop through the pokemon type and append data 
           for(let j = 0; j < data[i].types.length; j++){
             if(data[i].types[j] === 'grass'){
               type1.style.color = 'green';
@@ -82,12 +90,6 @@ function getPokemon() {
   xhttp.send();
 }
 
-function checkType(){
-  if(type1.innerHTML === 'grass' ){
-    type1.style.color = 'green';
-  }
-  console.log(type1.innerHTML);
-}
 
 function clearSelection() {
   console.log('button is working')
