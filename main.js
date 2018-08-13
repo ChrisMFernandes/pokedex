@@ -7,6 +7,8 @@ let type1 = document.getElementById('type1');
 let type2 = document.getElementById('type2');
 let image = document.getElementById('pokeImage');
 let input = document.getElementById('text');
+let upButton = document.getElementById('btnT');
+let downButton = document.getElementById('btnB');
 
 // make the call
 function getPokemon() {
