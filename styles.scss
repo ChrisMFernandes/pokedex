@@ -3,6 +3,9 @@
   src: url('fonts/Pokemon\ Solid.ttf'); 
 } 
 
+$primary_color: #aa0505;
+$secondary_color: #000000;
+
 body, html {
   height: 100%;
   margin: 0;
@@ -38,12 +41,12 @@ body, html {
   grid-gap: 3px;
   background: linear-gradient(
     to right, 
-    black,
-    #aa0505 1%,
-    #aa0505 99%,
-    black
+    $secondary_color,
+    $primary_color 1%,
+    $primary_color 99%,
+    $secondary_color
   );
-  box-shadow: 10px 10px 5px black;
+  box-shadow: 10px 10px 5px $secondary_color;
   border-radius: 25px;
   border: 3px solid grey;
   display: grid;
@@ -64,7 +67,7 @@ body, html {
   grid-area: hdrL;
   margin-left: 2%;
   border-radius: 15px 0px 0px 0px;
-  background: linear-gradient(grey -220%, #aa0505);
+  background: linear-gradient(grey -220%, $primary_color);
 }
 
 .headerLeft p{
@@ -78,14 +81,14 @@ body, html {
   grid-area: hdrR;
   margin-right: 2%;
   border-radius: 0px 15px 0px 0px;
-  background: linear-gradient(grey -220%, #aa0505)
+  background: linear-gradient(grey -220%, $primary_color)
 
 }
 
 #btn1{
   grid-area: btn1;
   background-color: aqua;
-  background: radial-gradient(aqua, black 220%);
+  background: radial-gradient(aqua, $secondary_color 220%);
   border-radius: 50%;
   border: 2px solid silver;
   width: 60px;
@@ -95,7 +98,7 @@ body, html {
 #btn2{
   grid-area: btn2;
   background-color: aqua;
-  background: radial-gradient(aqua, black 220%);
+  background: radial-gradient(aqua, $secondary_color 220%);
   border-radius: 50%;
   border: 2px solid silver;
   width: 60px;
@@ -105,7 +108,7 @@ body, html {
 #btn3{
   grid-area: btn3;
   background-color: aqua;
-  background: radial-gradient(aqua, black 220%); 
+  background: radial-gradient(aqua, $secondary_color 220%); 
   border-radius: 50%;
   border: 2px solid silver;
   width: 60px;
@@ -114,8 +117,8 @@ body, html {
 
 .image{
   grid-area: img;
-  background: radial-gradient(lightgrey 88%, black);
-  border: 2px solid black;
+  background: radial-gradient(lightgrey 88%, $secondary_color);
+  border: 2px solid $secondary_color;
   border-radius: 25px;
   display: grid;
   grid-template-columns: .5fr 1fr .5fr;
@@ -145,37 +148,37 @@ body, html {
 
 #btnT{
   grid-area: btnT;
-  background-color: black;
+  background-color: $secondary_color;
   border-bottom: none;
 }
 
 #btnM{
   grid-area: btnM;
-  background-color: black;
+  background-color: $secondary_color;
   border: none;
 }
 
 #btnR{
   grid-area: btnR;
-  background-color: black;
+  background-color: $secondary_color;
   border-left: none;
 }
 
 #btnL{
   grid-area: btnL;
-  background-color: black;
+  background-color: $secondary_color;
   border-right: none;
 }
 
 #btnB{
   grid-area: btnB;
-  background-color: black;
+  background-color: $secondary_color;
   border-top: none;
 }
 
 #pad{
   grid-area: pad;
-  background: radial-gradient(black 46%, grey);
+  background: radial-gradient($secondary_color 46%, grey);
   border: 2px solid grey;
   border-radius: 50%;
   width: 75px;
@@ -185,16 +188,16 @@ body, html {
   grid-area: spine;
     background: linear-gradient(
     to right, 
-    black,
-    #aa0505 35%,
-    black
+    $secondary_color,
+    $primary_color 35%,
+    $secondary_color
     )
 }
 
 .view{
   grid-area: view;
-  background: radial-gradient(#08e208 88%, black);
-  border: 2px solid black;
+  background: radial-gradient(#08e208 88%, $secondary_color);
+  border: 2px solid $secondary_color;
   min-height: 100%;
   min-width: 100%;
   border-radius: 25px;
@@ -293,7 +296,7 @@ height: 0;
   grid-area: type1;
   background-color: silver;
   border-radius: 75px;
-  border: 2px solid black;
+  border: 2px solid $secondary_color;
   height: 35px;
   align-self: center;
   display: flex;
@@ -307,7 +310,7 @@ height: 0;
   grid-area: type3;
   background-color: silver;
   border-radius: 75px;
-  border: 2px solid black;
+  border: 2px solid $secondary_color;
   height: 35px;
   align-self: center;
   display: flex;
@@ -317,8 +320,6 @@ height: 0;
 
 .ran1{
   grid-area: ran1;
-  /* background-color: black; */
-  /* opacity: 0.5; */
   display: grid;
   grid-row-gap: 3%;
   grid-template-columns: 1fr 1fr 1fr;
@@ -333,7 +334,7 @@ height: 0;
   font-family: 'Press Start 2P', cursive;
   grid-area: input;
   border-radius: 25px;
-  border: 2px solid black;
+  border: 2px solid $secondary_color;
   text-align: center;
 }
 
@@ -383,7 +384,7 @@ height: 0;
   grid-area: btn1;
   background-color: aqua;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid $secondary_color;
 
 }
 
@@ -391,35 +392,35 @@ height: 0;
   grid-area: btn2;
   background-color: aqua;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid $secondary_color;
 }
 
 #bluebtnR{
   grid-area: btn3;
   background-color: aqua;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid $secondary_color;
 }
 
 #bluebtnBR{
   grid-area: btn4;
   background-color: aqua;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid $secondary_color;
 }
 
 #bluebtnBM{
   grid-area: btn5;
   background-color: aqua;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid $secondary_color;
 }
 
 #bluebtnBL{
   grid-area: btn6;
   background-color: aqua;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid $secondary_color;
 }
 
 #logo{
@@ -427,7 +428,7 @@ height: 0;
   font-family: PokeFont;
   margin: 3%;
   justify-self: center;
-  color: black;
+  color: $secondary_color;
   opacity: 0.6;
   display: flex;
   justify-content: center;

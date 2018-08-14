@@ -92,7 +92,7 @@ function getPokemon() {
   xhttp.send();
 }
 
-
+// clear out everything from the getpokemon call
 function clearSelection() {
   console.log('button is working')
   hpResult.innerHTML = '';
