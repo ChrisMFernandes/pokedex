@@ -107,3 +107,24 @@ function clearSelection() {
   type2.style.color = '';
   type2.innerHTML = 'Type';
 }
+
+// base code to start a blinking function for blue buttons
+function startBlinking() {
+  setInterval(function () { 
+    blink();
+  }, 1000);
+}
+function blink() {
+  document.getElementById('blink').style.display = "none";
+  setTimeout(function () {
+    document.getElementById('blink').style.display = "inline";
+  }, 300);
+  document.getElementById('blink').style.display = "none";
+  setTimeout(function () {
+    document.getElementById('blink').style.display = "inline";
+  }, 500);
+  document.getElementById('blink').style.display = "none";
+  setTimeout(function () {
+    document.getElementById('blink').style.display = "inline";
+  }, 500);
+}
