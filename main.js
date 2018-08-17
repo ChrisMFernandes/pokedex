@@ -9,6 +9,9 @@ let image = document.getElementById('pokeImage');
 let input = document.getElementById('text');
 let upButton = document.getElementById('btnT');
 let downButton = document.getElementById('btnB');
+let blinkL = document.getElementById('btn1');
+let blinkM = document.getElementById('btn2');
+let blinkR = document.getElementById('btn3');
 
 // make the call
 function getPokemon() {
@@ -115,16 +118,16 @@ function startBlinking() {
   }, 1000);
 }
 function blink() {
-  document.getElementById('blink').style.display = "none";
   setTimeout(function () {
-    document.getElementById('blink').style.display = "inline";
+    blinkL.classList = "blink";
   }, 300);
-  document.getElementById('blink').style.display = "none";
+  blinkM.classList = "btn1";
   setTimeout(function () {
-    document.getElementById('blink').style.display = "inline";
+    blinkM.classList = "blink";
   }, 500);
-  document.getElementById('blink').style.display = "none";
+  blinkL.classList = "btn2";
   setTimeout(function () {
-    document.getElementById('blink').style.display = "inline";
+    blinkL.classList = "blink";
   }, 500);
+  blinkL.classList = "btn3";
 }
