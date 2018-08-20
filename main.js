@@ -19,7 +19,7 @@ function getPokemon() {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       let data = JSON.parse(this.responseText);
- 
+      
 // loop through JSON and append data to page
       for(let i = 0; i < data.length; i++){
         if(data[i].name == input.value.toLowerCase()){
@@ -29,6 +29,9 @@ function getPokemon() {
           ability1.innerHTML = data[i].abilities[0];
           ability2.innerHTML = data[i].abilities[1];
           image.src = data[i].image_url;
+
+// start the blinking lights
+          startBlinking();
 
 //  if pokemon only has one ability pass nothing to browser
           if(ability2.innerHTML === 'undefined'){
@@ -113,21 +116,22 @@ function clearSelection() {
 
 // base code to start a blinking function for blue buttons
 function startBlinking() {
-  setInterval(function () { 
+  setTimeout(function () { 
     blink();
-  }, 1000);
+  }, 10);
 }
+
 function blink() {
   setTimeout(function () {
-    blinkL.classList = "blink";
+    blinkL.classList.add("blink");
+  }, 100);
+  console.log(blinkL.classList)
+  setTimeout(function () {
+    blinkM.classList.add("blink");
   }, 300);
-  blinkM.classList = "btn1";
+  blinkM.classList.remove("blink");
   setTimeout(function () {
-    blinkM.classList = "blink";
+    blinkR.classList.add("blink");
   }, 500);
-  blinkL.classList = "btn2";
-  setTimeout(function () {
-    blinkL.classList = "blink";
-  }, 500);
-  blinkL.classList = "btn3";
+  blinkR.classList.remove("blink");
 }

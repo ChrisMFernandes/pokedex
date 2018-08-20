@@ -112,6 +112,14 @@ body, html {
   justify-self: center;
 }
 
+.blink{
+    background-color: #fff;
+    box-shadow:
+        0 0 60px 30px #fff,
+        0 0 100px 60px #f0f,
+        0 0 140px 90px #0ff;
+}
+
 .image{
   grid-area: img;
   background: radial-gradient(lightgrey 88%, black);
