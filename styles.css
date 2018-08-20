@@ -84,7 +84,6 @@ body, html {
 
 #btn1{
   grid-area: btn1;
-  background-color: aqua;
   background: radial-gradient(aqua, black 220%);
   border-radius: 50%;
   border: 2px solid silver;
@@ -94,7 +93,6 @@ body, html {
 
 #btn2{
   grid-area: btn2;
-  background-color: aqua;
   background: radial-gradient(aqua, black 220%);
   border-radius: 50%;
   border: 2px solid silver;
@@ -104,7 +102,6 @@ body, html {
 
 #btn3{
   grid-area: btn3;
-  background-color: aqua;
   background: radial-gradient(aqua, black 220%); 
   border-radius: 50%;
   border: 2px solid silver;
@@ -113,11 +110,10 @@ body, html {
 }
 
 .blink{
-    background-color: #fff;
     box-shadow:
-        0 0 60px 30px #fff,
-        0 0 100px 60px #f0f,
-        0 0 140px 90px #0ff;
+        0 0 60px 30px white,
+        0 0 70px 30px rgb(103, 252, 252);
+    z-index: 1;
 }
 
 .image{

@@ -12,6 +12,12 @@ let downButton = document.getElementById('btnB');
 let blinkL = document.getElementById('btn1');
 let blinkM = document.getElementById('btn2');
 let blinkR = document.getElementById('btn3');
+let bluebtnL = document.getElementById('bluebtnL');
+let bluebtnM = document.getElementById('bluebtnM');
+let bluebtnR = document.getElementById('bluebtnR');
+let bluebtnBL = document.getElementById('bluebtnBL');
+let bluebtnBM = document.getElementById('bluebtnBM');
+let bluebtnBR = document.getElementById('bluebtnBR');
 
 // make the call
 function getPokemon() {
@@ -124,14 +130,27 @@ function startBlinking() {
 function blink() {
   setTimeout(function () {
     blinkL.classList.add("blink");
+    bluebtnL.classList.add("blink");
   }, 100);
-  console.log(blinkL.classList)
+  setTimeout(function () {
+    blinkL.classList.remove("blink");
+    bluebtnL.classList.remove("blink");
+  }, 350);
   setTimeout(function () {
     blinkM.classList.add("blink");
-  }, 300);
-  blinkM.classList.remove("blink");
+    bluebtnR.classList.add("blink");
+   }, 300);
+  setTimeout(function () {
+    blinkM.classList.remove("blink");
+    bluebtnR.classList.remove("blink");
+  }, 550);
   setTimeout(function () {
     blinkR.classList.add("blink");
+    bluebtnBM.classList.add("blink");
   }, 500);
-  blinkR.classList.remove("blink");
+  setTimeout(function () {
+    blinkR.classList.remove("blink");
+    bluebtnBM.classList.remove("blink");
+  }, 750);
+
 }
