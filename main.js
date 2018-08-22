@@ -120,7 +120,7 @@ function clearSelection() {
   type2.innerHTML = 'Type';
 }
 
-// base code to start a blinking function for blue buttons
+// code for the blinky lights
 function startBlinking() {
   setTimeout(function () { 
     blink();
@@ -131,18 +131,22 @@ function blink() {
   setTimeout(function () {
     blinkL.classList.add("blink");
     bluebtnL.classList.add("blink");
+    bluebtnBR.classList.add("blink");
   }, 100);
   setTimeout(function () {
     blinkL.classList.remove("blink");
     bluebtnL.classList.remove("blink");
+    bluebtnBR.classList.remove("blink");
   }, 350);
   setTimeout(function () {
     blinkM.classList.add("blink");
     bluebtnR.classList.add("blink");
+    bluebtnBL.classList.add("blink");
    }, 300);
   setTimeout(function () {
     blinkM.classList.remove("blink");
     bluebtnR.classList.remove("blink");
+    bluebtnBL.classList.remove("blink");
   }, 550);
   setTimeout(function () {
     blinkR.classList.add("blink");
@@ -152,5 +156,11 @@ function blink() {
     blinkR.classList.remove("blink");
     bluebtnBM.classList.remove("blink");
   }, 750);
+  setTimeout(function () {
+    bluebtnM.classList.add("blink");
+  }, 750);
+  setTimeout(function () {
+    bluebtnM.classList.remove("blink");
+  }, 950);
 
 }

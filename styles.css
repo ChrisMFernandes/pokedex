@@ -114,6 +114,7 @@ body, html {
         0 0 60px 30px white,
         0 0 70px 30px rgb(103, 252, 252);
     z-index: 1;
+    border: 2px solid silver !important;
 }
 
 .image{
@@ -405,7 +406,7 @@ height: 0;
 }
 
 #bluebtnBR{
-  grid-area: btn4;
+  grid-area: btn6;
   background-color: aqua;
   border-radius: 5px;
   border: 1px solid black;
@@ -419,7 +420,7 @@ height: 0;
 }
 
 #bluebtnBL{
-  grid-area: btn6;
+  grid-area: btn4;
   background-color: aqua;
   border-radius: 5px;
   border: 1px solid black;
