@@ -96,9 +96,7 @@ function getPokemon() {
             }
           }
           
-        } else{
-            console.log("That isn't even a Pokemon you big dummy");
-          }
+        }
       }
     }
   };
