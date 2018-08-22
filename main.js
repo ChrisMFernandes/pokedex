@@ -28,7 +28,7 @@ function getPokemon() {
       
 // loop through JSON and append data to page
       for(let i = 0; i < data.length; i++){
-        if(data[i].name == input.value.toLowerCase()){
+        if(data[i].name === input.value.toLowerCase()){
           hpResult.innerHTML = data[i].stats[0].hp;
           atkResult.innerHTML = data[i].stats[1].atk;
           defResult.innerHTML = data[i].stats[2].def;
@@ -96,7 +96,9 @@ function getPokemon() {
             }
           }
           
-        }
+        } else{
+            console.log("That isn't even a Pokemon you big dummy");
+          }
       }
     }
   };
