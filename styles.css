@@ -200,11 +200,11 @@ body, html {
   grid-area: view;
   background: radial-gradient(#08e208 88%, black);
   border: 2px solid black;
-  min-height: 100%;
-  min-width: 100%;
+  min-height: 0;
+  min-width: 0;
   border-radius: 25px;
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5,auto);
   grid-template-areas: ". ability ability ability ." 
                        "ability1 ability1 . ability2 ability2" 
@@ -226,7 +226,7 @@ grid-area: ability1;
 font-family: 'Press Start 2P', cursive;
 margin: 0 0 0 5%;
 font-size: 12px;
-max-width: 40px;
+min-width: 0;
 height: 0;
 }
 
