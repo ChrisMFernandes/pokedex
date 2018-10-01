@@ -25,7 +25,8 @@ class Pokemon {
     this.hp = hp;
     this.atk = atk;
     this.def = def;
-    this.ability1 = ability2;
+    this.ability1 = ability1;
+    this.ability2 = ability2;
     this.image = image;
     this.type1 = type1;
     this.type2 = type2;
@@ -68,22 +69,80 @@ function getPokemon() {
           image.src = thisPoke.image;
           type1.innerHTML = thisPoke.type1;
           type2.innerHTML = thisPoke.type2;
-          
-//  if pokemon only has one ability pass nothing to browser
-          if(type2.innerHTML === 'undefined'){
-            type2.innerHTML = '';
+
+// if pokemon only has one ability pass nothing to browser
+          if(ability2.innerHTML === 'undefined') {
+            ability2.innerHTML = '';
           } else {
-            type2.innerHTML = type2.innerHTML;
-            console.log(type2.innerHTML);
+            ability2.innerHTML = thisPoke.ability2;
+          }
+          
+//  if pokemon only has one type pass nothing to browser
+          if(type2.innerHTML === 'undefined'){
+            type2.innerHTML = 'Type';
+          } else {
+            type2.innerHTML = thisPoke.type2;
           }
 
 
 // add this pokemon to an empty array to loop through later
-// ! this is not working just yet 
           thisPoke.add();
 
 // start the blinking lights
           startBlinking();
+
+
+// loop through the pokemon type and append data 
+// ! need to refactor this
+            // if(data[i].types[j] === 'grass'){
+            //   type1.style.color = 'green';
+            //   type1.innerHTML = data[i].types[j];
+            // } 
+            // else if(data[i].types[j] === 'poison'){
+            //   type2.style.color = 'purple';
+            //   type2.innerHTML = data[i].types[j];
+            // }
+            // else if(data[i].types[j] === 'ghost'){
+            //   type1.style.color = 'violet'
+            //   type1.innerHTML = data[i].types[j];
+            // }
+            // else if(data[i].types[j] === 'fire'){
+            //   type1.style.color = 'red'
+            //   type1.innerHTML = data[i].types[j];
+            // }
+            // else if(data[i].types[j] === 'flying'){
+            //   type2.style.color = 'orange'
+            //   type2.innerHTML = data[i].types[j];
+            // }
+            // else if(data[i].types[j] === 'water'){
+            //   type1.style.color = 'blue'
+            //   type1.innerHTML = data[i].types[j];
+            // }
+            // else if(data[i].types[j] === 'bug'){
+            //   type1.style.color = 'green'
+            //   type1.innerHTML = data[i].types[j];
+            // }
+            // else if(data[i].types[j] === 'normal'){
+            //   type1.style.color = 'black'
+            //   type1.innerHTML = data[i].types[j];
+            // }
+            // else if(data[i].types[j] === 'electric'){
+            //   type1.style.color = 'yellow'
+            //   type1.innerHTML = data[i].types[j];
+            // }
+            // else if(data[i].types[j] === 'ground'){
+            //   type1.style.color = 'brown'
+            //   type1.innerHTML = data[i].types[j];
+            // }
+            // else if(data[i].types[j] === 'fighting'){
+            //   type1.style.color = 'red'
+            //   type1.innerHTML = data[i].types[j];
+            // }
+            // else if(data[i].types[j] === 'rock'){
+            //   type1.style.color = 'black'
+            //   type1.innerHTML = data[i].types[j];
+            // }
+
           
         }
       }
