@@ -20,6 +20,10 @@ let bluebtnBM = document.getElementById('bluebtnBM');
 let bluebtnBR = document.getElementById('bluebtnBR');
 let pokeList = [];
 
+// TODO loop through collection and change font color based on type
+let pokeType = document.getElementsByClassName('.pokeType');
+console.log(pokeType);
+
 class Pokemon {
   constructor(hp, atk, def, ability1, ability2, image, type1, type2){
     this.hp = hp;
