@@ -142,9 +142,9 @@ body, html {
   grid-template-columns: repeat(10, .5fr);
   grid-template-rows: repeat(5, auto);
   grid-template-areas: ". . . . . . . . . ."
-                       ". pad pad pad pad . . . btnT ."
-                       ". pad pad pad pad . . btnL btnM btnR"
-                       ". pad pad pad pad . . . btnB ."
+                       ". btnT . . . . pad pad pad pad"
+                       "btnL btnM btnR . . . pad pad pad pad"
+                       ". btnB . . . . pad pad pad pad"
                        ". . . . . . . . . ."
 }
 
