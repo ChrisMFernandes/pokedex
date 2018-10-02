@@ -226,7 +226,7 @@ body, html {
 grid-area: ability1;
 font-family: 'Press Start 2P', cursive;
 margin: 0 0 0 5%;
-font-size: 12px;
+font-size: .7rem;
 min-width: 0;
 height: 0;
 }
@@ -236,7 +236,7 @@ height: 0;
   font-family: 'Press Start 2P', cursive;
   justify-self: start;
   margin: 0;
-  font-size: 12px;
+  font-size: .7rem;
   overflow: visible;
   max-width: 40px;
   height: 0;
