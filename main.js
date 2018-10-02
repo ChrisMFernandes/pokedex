@@ -19,6 +19,8 @@ let bluebtnBL = document.getElementById('bluebtnBL');
 let bluebtnBM = document.getElementById('bluebtnBM');
 let bluebtnBR = document.getElementById('bluebtnBR');
 let pokeType = document.getElementsByClassName('pokeType');
+let submitButton = document.getElementById('submit');
+let clearButton = document.getElementById('clear');
 let pokeList = [];
 
 class Pokemon {
@@ -40,7 +42,7 @@ class Pokemon {
 };
 
 // make the call
-function getPokemon() {
+submitButton.addEventListener('click', function() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -126,7 +128,7 @@ function getPokemon() {
         }
       }
 
-// start the blinking lights
+// start the flashing, lights, lights, lights
           startBlinking();
 
         }
@@ -135,12 +137,12 @@ function getPokemon() {
   };
   xhttp.open("GET", "https://raw.githubusercontent.com/ChrisMFernandes/pokedex/master/pokemon.json", true);
   xhttp.send();
-}
+});
 
 console.log(pokeList);
 
 // clear out everything from the getpokemon call
-function clearSelection() {
+clearButton.addEventListener('click', function() {
   console.log('button is working')
   hpResult.innerHTML = '';
   atkResult.innerHTML = '';
@@ -153,14 +155,14 @@ function clearSelection() {
   type1.innerHTML = 'Type';
   type2.style.color = '';
   type2.innerHTML = 'Type';
-}
+});
 
 // code for the blinky lights
 function startBlinking() {
   setTimeout(function () { 
     blink();
   }, 10);
-}
+};
 
 function blink() {
   setTimeout(function () {
@@ -198,4 +200,4 @@ function blink() {
     bluebtnM.classList.remove("blink");
   }, 950);
 
-}
+};

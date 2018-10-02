@@ -342,7 +342,7 @@ height: 0;
   width: 100%;
 }
 
-#submit{
+#clear{
   font-family: 'Press Start 2P', cursive;
   grid-area: submit;
   border-radius: 25px;
@@ -352,7 +352,7 @@ height: 0;
   background-color: #fafa30;
 }
 
-#submit2{
+#submit{
   font-family: 'Press Start 2P', cursive;
   grid-area: submit2;
   border-radius: 25px;
