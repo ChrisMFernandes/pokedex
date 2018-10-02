@@ -24,7 +24,8 @@ let clearButton = document.getElementById('clear');
 let pokeList = [];
 
 class Pokemon {
-  constructor(hp, atk, def, ability1, ability2, image, type1, type2){
+  constructor(name, hp, atk, def, ability1, ability2, image, type1, type2){
+    this.name = name;
     this.hp = hp;
     this.atk = atk;
     this.def = def;
@@ -53,6 +54,7 @@ submitButton.addEventListener('click', function() {
         if(data[i].name === input.value.toLowerCase()){
 
           let thisPoke = new Pokemon(
+            data[i].name,
             data[i].stats[0].hp,
             data[i].stats[1].atk,
             data[i].stats[2].def,
