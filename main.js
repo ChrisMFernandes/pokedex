@@ -18,11 +18,8 @@ let bluebtnR = document.getElementById('bluebtnR');
 let bluebtnBL = document.getElementById('bluebtnBL');
 let bluebtnBM = document.getElementById('bluebtnBM');
 let bluebtnBR = document.getElementById('bluebtnBR');
+let pokeType = document.getElementsByClassName('pokeType');
 let pokeList = [];
-
-// TODO loop through collection and change font color based on type
-let pokeType = document.getElementsByClassName('.pokeType');
-console.log(pokeType);
 
 class Pokemon {
   constructor(hp, atk, def, ability1, ability2, image, type1, type2){
@@ -92,62 +89,44 @@ function getPokemon() {
 // add this pokemon to an empty array to loop through later
           thisPoke.add();
 
+// change the color of text based on pokemon type
+      for(let i = 0; i < pokeType.length; i++){
+        if(pokeType[i].innerHTML === 'grass'){
+          pokeType[i].style.color = 'green';
+        } else if(pokeType[i].innerHTML === 'poison'){
+          pokeType[i].style.color = 'purple';
+        } else if(pokeType[i].innerHTML === 'ghost'){
+          pokeType[i].style.color = 'violet';
+        } else if(pokeType[i].innerHTML === 'fire'){
+          pokeType[i].style.color = 'red';
+        } else if(pokeType[i].innerHTML === 'flying'){
+          pokeType[i].style.color = 'orange';
+        } else if(pokeType[i].innerHTML === 'water'){
+          pokeType[i].style.color = 'blue';
+        } else if(pokeType[i].innerHTML === 'bug'){
+          pokeType[i].style.color = 'green';
+        } else if(pokeType[i].innerHTML === 'normal'){
+          pokeType[i].style.color = 'black';
+        } else if(pokeType[i].innerHTML === 'electric'){
+          pokeType[i].style.color = 'yellow';
+        } else if(pokeType[i].innerHTML === 'ground'){
+          pokeType[i].style.color = 'brown';
+        } else if(pokeType[i].innerHTML === 'fighting'){
+          pokeType[i].style.color = 'red';
+        } else if(pokeType[i].innerHTML === 'rock'){
+          pokeType[i].style.color = 'black';
+        } else if(pokeType[i].innerHTML === 'psychic'){
+          pokeType[i].style.color = 'violet';
+        } else if(pokeType[i].innerHTML === 'ice'){
+          pokeType[i].style.color = 'blue';
+        } else{
+          pokeType[i].style.color = 'black';
+        }
+      }
+
 // start the blinking lights
           startBlinking();
 
-
-// loop through the pokemon type and append data 
-// ! need to refactor this
-            // if(data[i].types[j] === 'grass'){
-            //   type1.style.color = 'green';
-            //   type1.innerHTML = data[i].types[j];
-            // } 
-            // else if(data[i].types[j] === 'poison'){
-            //   type2.style.color = 'purple';
-            //   type2.innerHTML = data[i].types[j];
-            // }
-            // else if(data[i].types[j] === 'ghost'){
-            //   type1.style.color = 'violet'
-            //   type1.innerHTML = data[i].types[j];
-            // }
-            // else if(data[i].types[j] === 'fire'){
-            //   type1.style.color = 'red'
-            //   type1.innerHTML = data[i].types[j];
-            // }
-            // else if(data[i].types[j] === 'flying'){
-            //   type2.style.color = 'orange'
-            //   type2.innerHTML = data[i].types[j];
-            // }
-            // else if(data[i].types[j] === 'water'){
-            //   type1.style.color = 'blue'
-            //   type1.innerHTML = data[i].types[j];
-            // }
-            // else if(data[i].types[j] === 'bug'){
-            //   type1.style.color = 'green'
-            //   type1.innerHTML = data[i].types[j];
-            // }
-            // else if(data[i].types[j] === 'normal'){
-            //   type1.style.color = 'black'
-            //   type1.innerHTML = data[i].types[j];
-            // }
-            // else if(data[i].types[j] === 'electric'){
-            //   type1.style.color = 'yellow'
-            //   type1.innerHTML = data[i].types[j];
-            // }
-            // else if(data[i].types[j] === 'ground'){
-            //   type1.style.color = 'brown'
-            //   type1.innerHTML = data[i].types[j];
-            // }
-            // else if(data[i].types[j] === 'fighting'){
-            //   type1.style.color = 'red'
-            //   type1.innerHTML = data[i].types[j];
-            // }
-            // else if(data[i].types[j] === 'rock'){
-            //   type1.style.color = 'black'
-            //   type1.innerHTML = data[i].types[j];
-            // }
-
-          
         }
       }
     }
