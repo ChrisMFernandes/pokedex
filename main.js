@@ -119,6 +119,8 @@ function getPokemon() {
           pokeType[i].style.color = 'violet';
         } else if(pokeType[i].innerHTML === 'ice'){
           pokeType[i].style.color = 'blue';
+        } else if(pokeType[i].innerHTML === 'dragon'){
+          pokeType[i].style.color = 'green';
         } else{
           pokeType[i].style.color = 'black';
         }
