@@ -21,6 +21,7 @@ let bluebtnBR = document.getElementById('bluebtnBR');
 let pokeType = document.getElementsByClassName('pokeType');
 let submitButton = document.getElementById('submit');
 let clearButton = document.getElementById('clear');
+let pad = document.getElementById('pad');
 let pokeList = [];
 
 class Pokemon {
@@ -91,7 +92,10 @@ submitButton.addEventListener('click', function() {
 
 
 // add this pokemon to an empty array to loop through later
-          thisPoke.add();
+      pad.addEventListener('click', function(){
+        thisPoke.add();
+        console.log(`${thisPoke.name} has been added!`);
+      });
 
 // change the color of text based on pokemon type
       for(let i = 0; i < pokeType.length; i++){
