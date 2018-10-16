@@ -181,6 +181,8 @@ body, html {
 #pad{
   grid-area: pad;
   background: radial-gradient(black 46%, grey);
+  color: grey;
+  font-family: 'Press Start 2P', cursive;
   /* border: 2px solid grey; */
   border-radius: 50%;
   width: 75px;
