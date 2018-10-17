@@ -92,10 +92,18 @@ submitButton.addEventListener('click', function() {
 
 
 // add this pokemon to an empty array to loop through later
+// TODO: loop through pokeList to check if current selected pokemon exists and if not add to list
       pad.addEventListener('click', function(){
-        thisPoke.add();
-        console.log(`${thisPoke.name} has been added!`);
+        if(pokeList.includes('squirtle')){
+          console.log(`${thisPoke.name} has already been added!`);
+        }else{
+          thisPoke.add();
+          console.log(`${thisPoke.name} has been added!`);
+        };
       });
+      
+
+// TODO: once the above is complete, add functionality to cycle through list of added pokemon and append data to screen
 
 // change the color of text based on pokemon type
       for(let i = 0; i < pokeType.length; i++){
