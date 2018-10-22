@@ -97,11 +97,11 @@ submitButton.addEventListener('click', function() {
         let value = input.value;
         for(let i = 0; i <= pokeList.length; i++){
           console.log(value);
-          if(pokeList[i].name === value){
-            console.log(`${thisPoke.name} has already been added!`);
-          }else{
+          if(pokeList.length < 1){
             thisPoke.add();
             console.log(`${thisPoke.name} has been added!`);
+          }else if(pokeList[i].name === value){
+            console.log(`${thisPoke.name} has already been added!`);
           }
         };
       });
