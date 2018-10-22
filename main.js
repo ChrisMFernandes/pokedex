@@ -94,11 +94,15 @@ submitButton.addEventListener('click', function() {
 // add this pokemon to an empty array to loop through later
 // TODO: loop through pokeList to check if current selected pokemon exists and if not add to list
       pad.addEventListener('click', function(){
-        if(pokeList.includes('squirtle')){
-          console.log(`${thisPoke.name} has already been added!`);
-        }else{
-          thisPoke.add();
-          console.log(`${thisPoke.name} has been added!`);
+        let value = input.value;
+        for(let i = 0; i <= pokeList.length; i++){
+          console.log(value);
+          if(pokeList[i].name === value){
+            console.log(`${thisPoke.name} has already been added!`);
+          }else{
+            thisPoke.add();
+            console.log(`${thisPoke.name} has been added!`);
+          }
         };
       });
       
