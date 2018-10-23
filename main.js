@@ -91,17 +91,15 @@ submitButton.addEventListener('click', function() {
           }
 
 
-// add this pokemon to an empty array to loop through later
-// TODO: loop through pokeList to check if current selected pokemon exists and if not add to list
+// add displayed pokemon to an empty array to loop through later
       pad.addEventListener('click', function(){
         let value = input.value;
         for(let i = 0; i <= pokeList.length; i++){
-          console.log(value);
           if(pokeList.length < 1){
             thisPoke.add();
-            console.log(`${thisPoke.name} has been added!`);
+            alert(`${thisPoke.name} has been added!`);
           }else if(pokeList[i].name === value){
-            console.log(`${thisPoke.name} has already been added!`);
+            alert(`${thisPoke.name} has already been added!`);
           }
         };
       });
@@ -157,7 +155,6 @@ submitButton.addEventListener('click', function() {
   xhttp.send();
 });
 
-console.log(pokeList);
 
 // clear out everything from the getpokemon call
 clearButton.addEventListener('click', function() {
