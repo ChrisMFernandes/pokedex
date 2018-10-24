@@ -66,6 +66,10 @@ submitButton.addEventListener('click', function() {
             data[i].types[1]
           );
 
+          console.log('===');
+          console.log(thisPoke);
+          console.log('===');
+
 // append the pokemon data to html
           hpResult.innerHTML = thisPoke.hp;
           atkResult.innerHTML = thisPoke.atk;
@@ -92,17 +96,25 @@ submitButton.addEventListener('click', function() {
 
 
 // add displayed pokemon to an empty array to loop through later
+// ! Still needs more work to add second pokemon to list, running twice for some reason
       pad.addEventListener('click', function(){
         let value = input.value;
-        for(let i = 0; i <= pokeList.length; i++){
-          if(pokeList.length < 1){
+        console.log(value);
+        console.log(thisPoke.name);
+        console.log(pokeList.length);
+        if(pokeList.length > 0){
+          
+          for(let i = 0; i < pokeList.length; i++){
+            
+            if(pokeList[i].name === value){
+              alert(`${thisPoke.name} has already been added!`);
+            }};
+          
+          }else {
             thisPoke.add();
-            alert(`${thisPoke.name} has been added!`);
-          }else if(pokeList[i].name === value){
-            alert(`${thisPoke.name} has already been added!`);
+            alert(`${thisPoke.name} has been added to the dex, bro!`);
           }
-        };
-      });
+        });
       
 
 // TODO: once the above is complete, add functionality to cycle through list of added pokemon and append data to screen
