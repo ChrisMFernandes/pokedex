@@ -154,6 +154,7 @@ submitButton.addEventListener('click', function () {
   xhttp.send();
 });
 
+
 function addToList() { 
   pad.addEventListener('click', function () {
     let value = input.value;
@@ -163,11 +164,11 @@ function addToList() {
       for (let i = 0; i < pokeList.length; i++) {
         console.log(pokeList[i]);
         // * pokeList[i].name === value || pokeList.length > 1
-        if (pokeList[i].name === value) {
+        if (addList.includes(pokeList[i])) {
+          alert(`${pokeList[i].name} has already been added to the dex, bro!`);
+        } else if (pokeList[i].name == value){
           addList.push(pokeList[i]);
           alert(`${pokeList[i].name} has been added!`);
-        } else if (addList[i].name == value){
-          alert(`${pokeList[i].name} has already been added to the dex, bro!`);
         } else {
           alert('something is broken')
         }
