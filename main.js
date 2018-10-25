@@ -23,9 +23,10 @@ let submitButton = document.getElementById('submit');
 let clearButton = document.getElementById('clear');
 let pad = document.getElementById('pad');
 let pokeList = [];
+let addList = [];
 
 class Pokemon {
-  constructor(name, hp, atk, def, ability1, ability2, image, type1, type2){
+  constructor(name, hp, atk, def, ability1, ability2, image, type1, type2) {
     this.name = name;
     this.hp = hp;
     this.atk = atk;
@@ -36,23 +37,23 @@ class Pokemon {
     this.type1 = type1;
     this.type2 = type2;
   }
-    
-    add() {
-      pokeList.push(this);
-    }
+
+  add() {
+    pokeList.push(this);
+  }
 
 };
 
 // make the call
-submitButton.addEventListener('click', function() {
+submitButton.addEventListener('click', function () {
   var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+  xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       let data = JSON.parse(this.responseText);
-      
-// loop through JSON and append data to page
-      for(let i = 0; i < data.length; i++){
-        if(data[i].name === input.value.toLowerCase()){
+
+      // loop through JSON and append data to page
+      for (let i = 0; i < data.length; i++) {
+        if (data[i].name === input.value.toLowerCase()) {
 
           let thisPoke = new Pokemon(
             data[i].name,
@@ -66,11 +67,13 @@ submitButton.addEventListener('click', function() {
             data[i].types[1]
           );
 
+          thisPoke.add();
+
           console.log('===');
           console.log(thisPoke);
           console.log('===');
 
-// append the pokemon data to html
+          // append the pokemon data to html
           hpResult.innerHTML = thisPoke.hp;
           atkResult.innerHTML = thisPoke.atk;
           defResult.innerHTML = thisPoke.def;
@@ -80,83 +83,71 @@ submitButton.addEventListener('click', function() {
           type1.innerHTML = thisPoke.type1;
           type2.innerHTML = thisPoke.type2;
 
-// if pokemon only has one ability pass nothing to browser
-          if(ability2.innerHTML === 'undefined') {
+          // if pokemon only has one ability pass nothing to browser
+          if (ability2.innerHTML === 'undefined') {
             ability2.innerHTML = '';
           } else {
             ability2.innerHTML = thisPoke.ability2;
           }
-          
-//  if pokemon only has one type pass nothing to browser
-          if(type2.innerHTML === 'undefined'){
+
+          //  if pokemon only has one type pass nothing to browser
+          if (type2.innerHTML === 'undefined') {
             type2.innerHTML = 'Type';
           } else {
             type2.innerHTML = thisPoke.type2;
           }
 
+          console.log('---');
+          console.log(thisPoke);
+          console.log('---');
 
-// add displayed pokemon to an empty array to loop through later
-// ! Still needs more work to add second pokemon to list, running twice for some reason
-      pad.addEventListener('click', function(){
-        let value = input.value;
-        console.log(value);
-        console.log(thisPoke.name);
-        console.log(pokeList.length);
-        if(pokeList.length > 0){
+
+          // add displayed pokemon to an empty array to loop through later
+          // ! Still needs more work to add second pokemon to list, running twice for some reason
           
-          for(let i = 0; i < pokeList.length; i++){
-            
-            if(pokeList[i].name === value){
-              alert(`${thisPoke.name} has already been added!`);
-            }};
-          
-          }else {
-            thisPoke.add();
-            alert(`${thisPoke.name} has been added to the dex, bro!`);
+
+
+
+          // TODO: once the above is complete, add functionality to cycle through list of added pokemon and append data to screen
+
+          // change the color of text based on pokemon type
+          for (let i = 0; i < pokeType.length; i++) {
+            if (pokeType[i].innerHTML === 'grass') {
+              pokeType[i].style.color = 'green';
+            } else if (pokeType[i].innerHTML === 'poison') {
+              pokeType[i].style.color = 'purple';
+            } else if (pokeType[i].innerHTML === 'ghost') {
+              pokeType[i].style.color = 'violet';
+            } else if (pokeType[i].innerHTML === 'fire') {
+              pokeType[i].style.color = 'red';
+            } else if (pokeType[i].innerHTML === 'flying') {
+              pokeType[i].style.color = 'orange';
+            } else if (pokeType[i].innerHTML === 'water') {
+              pokeType[i].style.color = 'blue';
+            } else if (pokeType[i].innerHTML === 'bug') {
+              pokeType[i].style.color = 'green';
+            } else if (pokeType[i].innerHTML === 'normal') {
+              pokeType[i].style.color = 'black';
+            } else if (pokeType[i].innerHTML === 'electric') {
+              pokeType[i].style.color = 'yellow';
+            } else if (pokeType[i].innerHTML === 'ground') {
+              pokeType[i].style.color = 'brown';
+            } else if (pokeType[i].innerHTML === 'fighting') {
+              pokeType[i].style.color = 'red';
+            } else if (pokeType[i].innerHTML === 'rock') {
+              pokeType[i].style.color = 'black';
+            } else if (pokeType[i].innerHTML === 'psychic') {
+              pokeType[i].style.color = 'violet';
+            } else if (pokeType[i].innerHTML === 'ice') {
+              pokeType[i].style.color = 'blue';
+            } else if (pokeType[i].innerHTML === 'dragon') {
+              pokeType[i].style.color = 'green';
+            } else {
+              pokeType[i].style.color = 'black';
+            }
           }
-        });
-      
 
-// TODO: once the above is complete, add functionality to cycle through list of added pokemon and append data to screen
-
-// change the color of text based on pokemon type
-      for(let i = 0; i < pokeType.length; i++){
-        if(pokeType[i].innerHTML === 'grass'){
-          pokeType[i].style.color = 'green';
-        } else if(pokeType[i].innerHTML === 'poison'){
-          pokeType[i].style.color = 'purple';
-        } else if(pokeType[i].innerHTML === 'ghost'){
-          pokeType[i].style.color = 'violet';
-        } else if(pokeType[i].innerHTML === 'fire'){
-          pokeType[i].style.color = 'red';
-        } else if(pokeType[i].innerHTML === 'flying'){
-          pokeType[i].style.color = 'orange';
-        } else if(pokeType[i].innerHTML === 'water'){
-          pokeType[i].style.color = 'blue';
-        } else if(pokeType[i].innerHTML === 'bug'){
-          pokeType[i].style.color = 'green';
-        } else if(pokeType[i].innerHTML === 'normal'){
-          pokeType[i].style.color = 'black';
-        } else if(pokeType[i].innerHTML === 'electric'){
-          pokeType[i].style.color = 'yellow';
-        } else if(pokeType[i].innerHTML === 'ground'){
-          pokeType[i].style.color = 'brown';
-        } else if(pokeType[i].innerHTML === 'fighting'){
-          pokeType[i].style.color = 'red';
-        } else if(pokeType[i].innerHTML === 'rock'){
-          pokeType[i].style.color = 'black';
-        } else if(pokeType[i].innerHTML === 'psychic'){
-          pokeType[i].style.color = 'violet';
-        } else if(pokeType[i].innerHTML === 'ice'){
-          pokeType[i].style.color = 'blue';
-        } else if(pokeType[i].innerHTML === 'dragon'){
-          pokeType[i].style.color = 'green';
-        } else{
-          pokeType[i].style.color = 'black';
-        }
-      }
-
-// start the flashing, lights, lights, lights
+          // start the flashing, lights, lights, lights
           startBlinking();
 
         }
@@ -167,9 +158,35 @@ submitButton.addEventListener('click', function() {
   xhttp.send();
 });
 
+function addToList() { 
+  pad.addEventListener('click', function () {
+    let value = input.value;
+    console.log(value);
+    console.log(pokeList.length);
+
+    if (pokeList.length > 0) {
+
+      for (let i = 0; i < pokeList.length; i++) {
+        console.log(pokeList[i]);
+        // * pokeList[i].name === value || pokeList.length > 1
+        if (pokeList[i].name === value) {
+          alert(`${pokeList[i].name} has already been added!`);
+          // ! added break to prevent infinite loop, will remove when debugging is complete
+        } else {
+          addList.push(pokeList[i]);
+          alert(`${pokeList[i].name} has been added to the dex, bro!`);
+        }
+      };
+
+    }
+  })
+};
+
+addToList();
+
 
 // clear out everything from the getpokemon call
-clearButton.addEventListener('click', function() {
+clearButton.addEventListener('click', function () {
   console.log('button is working')
   hpResult.innerHTML = '';
   atkResult.innerHTML = '';
@@ -186,7 +203,7 @@ clearButton.addEventListener('click', function() {
 
 // code for the blinky lights
 function startBlinking() {
-  setTimeout(function () { 
+  setTimeout(function () {
     blink();
   }, 10);
 };
