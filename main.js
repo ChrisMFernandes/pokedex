@@ -67,7 +67,7 @@ submitButton.addEventListener('click', function () {
             data[i].types[1]
           );
 
-          thisPoke.add();
+          thisPoke.add(thisPoke);
 
           console.log('===');
           console.log(thisPoke);
@@ -102,13 +102,9 @@ submitButton.addEventListener('click', function () {
           console.log('---');
 
 
-          // add displayed pokemon to an empty array to loop through later
-          // ! Still needs more work to add second pokemon to list, running twice for some reason
-          
+          // add displayed pokemon to an empty array to loop through later          
+          // addToList(thisPoke);
 
-
-
-          // TODO: once the above is complete, add functionality to cycle through list of added pokemon and append data to screen
 
           // change the color of text based on pokemon type
           for (let i = 0; i < pokeType.length; i++) {
@@ -164,21 +160,18 @@ function addToList() {
     console.log(value);
     console.log(pokeList.length);
 
-    if (pokeList.length > 0) {
-
       for (let i = 0; i < pokeList.length; i++) {
         console.log(pokeList[i]);
         // * pokeList[i].name === value || pokeList.length > 1
         if (pokeList[i].name === value) {
-          alert(`${pokeList[i].name} has already been added!`);
-          // ! added break to prevent infinite loop, will remove when debugging is complete
-        } else {
           addList.push(pokeList[i]);
-          alert(`${pokeList[i].name} has been added to the dex, bro!`);
+          alert(`${pokeList[i].name} has been added!`);
+        } else if (addList[i].name == value){
+          alert(`${pokeList[i].name} has already been added to the dex, bro!`);
+        } else {
+          alert('something is broken')
         }
       };
-
-    }
   })
 };
 
@@ -186,20 +179,24 @@ addToList();
 
 
 // clear out everything from the getpokemon call
-clearButton.addEventListener('click', function () {
-  console.log('button is working')
-  hpResult.innerHTML = '';
-  atkResult.innerHTML = '';
-  defResult.innerHTML = '';
-  image.src = '';
-  ability1.innerHTML = '';
-  ability2.innerHTML = '';
-  input.value = '';
-  type1.style.color = ''
-  type1.innerHTML = 'Type';
-  type2.style.color = '';
-  type2.innerHTML = 'Type';
-});
+function clear() {
+  clearButton.addEventListener('click', function () {
+    console.log('button is working')
+    hpResult.innerHTML = '';
+    atkResult.innerHTML = '';
+    defResult.innerHTML = '';
+    image.src = '';
+    ability1.innerHTML = '';
+    ability2.innerHTML = '';
+    input.value = '';
+    type1.style.color = ''
+    type1.innerHTML = 'Type';
+    type2.style.color = '';
+    type2.innerHTML = 'Type';
+  });
+};
+
+clear();
 
 // code for the blinky lights
 function startBlinking() {
