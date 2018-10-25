@@ -154,7 +154,7 @@ submitButton.addEventListener('click', function () {
   xhttp.send();
 });
 
-
+// ! loop will search pokeList array and run first if block at each iteration. I don't want that!
 function addToList() { 
   pad.addEventListener('click', function () {
     let value = input.value;
