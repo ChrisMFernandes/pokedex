@@ -166,12 +166,10 @@ function addToList() {
         // * pokeList[i].name === value || pokeList.length > 1
         if (addList.includes(pokeList[i])) {
           alert(`${pokeList[i].name} has already been added to the dex, bro!`);
-        } else if (pokeList[i].name == value){
+        } else {
           addList.push(pokeList[i]);
           alert(`${pokeList[i].name} has been added!`);
-        } else {
-          alert('something is broken')
-        }
+        } 
       };
   })
 };
