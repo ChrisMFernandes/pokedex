@@ -67,11 +67,10 @@ submitButton.addEventListener('click', function () {
             data[i].types[1]
           );
 
-          thisPoke.add(thisPoke);
-
-          console.log('===');
-          console.log(thisPoke);
-          console.log('===');
+          // ! using to track object. REMOVE FROM FINISHED PROJECT
+          // console.log('===');
+          // console.log(thisPoke);
+          // console.log('===');
 
           // append the pokemon data to html
           hpResult.innerHTML = thisPoke.hp;
@@ -97,13 +96,14 @@ submitButton.addEventListener('click', function () {
             type2.innerHTML = thisPoke.type2;
           }
 
-          console.log('---');
-          console.log(thisPoke);
-          console.log('---');
+          // ! using to track object. REMOVE FROM FINISHED PROJECT  
+          // console.log('---');
+          // console.log(thisPoke);
+          // console.log('---');
 
 
           // add displayed pokemon to an empty array to loop through later          
-          // addToList(thisPoke);
+          addToList(thisPoke);
 
 
           // change the color of text based on pokemon type
@@ -155,26 +155,34 @@ submitButton.addEventListener('click', function () {
 });
 
 // ! loop will search pokeList array and run first if block at each iteration. I don't want that!
-function addToList() { 
+function addToList(poke) { 
   pad.addEventListener('click', function () {
     let value = input.value;
-    console.log(value);
-    console.log(pokeList.length);
+    // console.log(value);
+    // console.log(poke);
+    // console.log('===');
+    // console.log(pokeList.includes(poke));
+    // console.log('===');
+    // console.log(pokeList.includes(poke));
 
-      for (let i = 0; i < pokeList.length; i++) {
+      for (let i = 0; i <= pokeList.length; i++) {
         console.log(pokeList[i]);
+        console.log('===')
+        console.log(pokeList.includes(poke));
+        console.log('===');
         // * pokeList[i].name === value || pokeList.length > 1
-        if (addList.includes(pokeList[i])) {
-          alert(`${pokeList[i].name} has already been added to the dex, bro!`);
+        if (pokeList.includes(poke) == true) {
+          alert(`${poke.name} has already been added to the dex, bro!`);
+          break
         } else {
-          addList.push(pokeList[i]);
-          alert(`${pokeList[i].name} has been added!`);
+          pokeList.push(poke);
+          alert(`${poke.name} has been added!`);
         } 
       };
   })
 };
 
-addToList();
+// addToList();
 
 
 // clear out everything from the getpokemon call
