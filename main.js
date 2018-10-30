@@ -159,7 +159,7 @@ function addToList(poke) {
   pad.addEventListener('click', function () {
     let value = input.value;
     // console.log(value);
-    // console.log(poke);
+    console.log(poke);
     // console.log('===');
     // console.log(pokeList.includes(poke));
     // console.log('===');
@@ -167,12 +167,13 @@ function addToList(poke) {
 
     if (pokeList.length > 0) {
       for (let i = 0; i < pokeList.length; i++) {
-        console.log(pokeList[i]);
+        console.log(poke);
         console.log('===')
         console.log(pokeList.includes(poke));
         console.log('===');
-        if (pokeList.includes(poke) == true) {
-          alert(`${poke.name} has already been added to the dex, bro!`);
+        if (pokeList.includes(poke) == false) {
+          pokeList.push(poke);
+          alert(`${poke.name} has been added!`);
         } 
       }
     } else {
