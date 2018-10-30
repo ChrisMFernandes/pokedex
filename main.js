@@ -165,20 +165,20 @@ function addToList(poke) {
     // console.log('===');
     // console.log(pokeList.includes(poke));
 
-      for (let i = 0; i <= pokeList.length; i++) {
+    if (pokeList.length > 0) {
+      for (let i = 0; i < pokeList.length; i++) {
         console.log(pokeList[i]);
         console.log('===')
         console.log(pokeList.includes(poke));
         console.log('===');
-        // * pokeList[i].name === value || pokeList.length > 1
         if (pokeList.includes(poke) == true) {
           alert(`${poke.name} has already been added to the dex, bro!`);
-          break
-        } else {
-          pokeList.push(poke);
-          alert(`${poke.name} has been added!`);
         } 
-      };
+      }
+    } else {
+        pokeList.push(poke);
+        alert(`${poke.name} has been added!`);
+      } 
   })
 };
 
