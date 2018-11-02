@@ -67,6 +67,8 @@ submitButton.addEventListener('click', function () {
             data[i].types[1]
           );
 
+          thisPoke.add(thisPoke);
+
           // ! using to track object. REMOVE FROM FINISHED PROJECT
           // console.log('===');
           // console.log(thisPoke);
@@ -103,7 +105,7 @@ submitButton.addEventListener('click', function () {
 
 
           // add displayed pokemon to an empty array to loop through later          
-          addToList(thisPoke);
+          // addToList(thisPoke);
 
 
           // change the color of text based on pokemon type
@@ -155,35 +157,35 @@ submitButton.addEventListener('click', function () {
 });
 
 // ! loop will search pokeList array and run first if block at each iteration. I don't want that!
-function addToList(poke) { 
+function addToList() { 
   pad.addEventListener('click', function () {
     let value = input.value;
-    // console.log(value);
-    console.log(poke);
-    // console.log('===');
-    // console.log(pokeList.includes(poke));
-    // console.log('===');
-    // console.log(pokeList.includes(poke));
+    let myPoke = pokeList.shift();
+    console.log(value);
+    console.log(myPoke);
 
-    if (pokeList.length > 0) {
-      for (let i = 0; i < pokeList.length; i++) {
-        console.log(poke);
+    if (addList.length > 0) {
+      for (let i = 0; i < addList.length; i++) {
+
         console.log('===')
-        console.log(pokeList.includes(poke));
+        console.log(addList.includes(myPoke));
         console.log('===');
-        if (pokeList.includes(poke) == false) {
-          pokeList.push(poke);
-          alert(`${poke.name} has been added!`);
+        if (addList.includes(myPoke) == true) {
+          alert(`${myPoke.name} is already in your Pokedex!`);
+          break;
+        } else {
+          addList.push(myPoke);
+          alert(`${myPoke.name} has been added!`);
         } 
       }
     } else {
-        pokeList.push(poke);
-        alert(`${poke.name} has been added!`);
-      } 
+      addList.push(myPoke);
+      alert(`${myPoke.name} has been added!`);
+    }
   })
 };
 
-// addToList();
+addToList();
 
 
 // clear out everything from the getpokemon call
