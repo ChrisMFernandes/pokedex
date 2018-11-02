@@ -39,7 +39,7 @@ class Pokemon {
   }
 
   add() {
-    pokeList.push(this);
+    pokeList.unshift(this);
   }
 
 };
@@ -69,11 +69,6 @@ submitButton.addEventListener('click', function () {
 
           thisPoke.add(thisPoke);
 
-          // ! using to track object. REMOVE FROM FINISHED PROJECT
-          // console.log('===');
-          // console.log(thisPoke);
-          // console.log('===');
-
           // append the pokemon data to html
           hpResult.innerHTML = thisPoke.hp;
           atkResult.innerHTML = thisPoke.atk;
@@ -97,15 +92,6 @@ submitButton.addEventListener('click', function () {
           } else {
             type2.innerHTML = thisPoke.type2;
           }
-
-          // ! using to track object. REMOVE FROM FINISHED PROJECT  
-          // console.log('---');
-          // console.log(thisPoke);
-          // console.log('---');
-
-
-          // add displayed pokemon to an empty array to loop through later          
-          // addToList(thisPoke);
 
 
           // change the color of text based on pokemon type
@@ -164,7 +150,7 @@ function addToList() {
     console.log(value);
     console.log(myPoke);
 
-    if (addList.length > 0) {
+    if (addList.length > 0 && addList.includes(myPoke) != true) {
       for (let i = 0; i < addList.length; i++) {
 
         console.log('===')
@@ -172,13 +158,12 @@ function addToList() {
         console.log('===');
         if (addList.includes(myPoke) == true) {
           alert(`${myPoke.name} is already in your Pokedex!`);
-          break;
         } else {
           addList.push(myPoke);
           alert(`${myPoke.name} has been added!`);
         } 
       }
-    } else {
+    } else if(myPoke != undefined) {
       addList.push(myPoke);
       alert(`${myPoke.name} has been added!`);
     }
