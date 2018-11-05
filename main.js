@@ -142,12 +142,13 @@ submitButton.addEventListener('click', function () {
   xhttp.send();
 });
 
+// add pokemon to secondary list to loop through using directional pads on pokedex
 function addToList() { 
   pad.addEventListener('click', function () {
     let myPoke = pokeList.shift();
 
-    let found = addList.find(function(e) {
-      return e.name === myPoke.name;
+    let found = addList.find(function(element) {
+      return element.name === myPoke.name;
     });
 
     if (found) {
