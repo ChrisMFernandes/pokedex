@@ -142,30 +142,22 @@ submitButton.addEventListener('click', function () {
   xhttp.send();
 });
 
-// ! loop will search pokeList array and run first if block at each iteration. I don't want that!
+// add pokemon to secondary list to loop through using directional pads on pokedex
 function addToList() { 
   pad.addEventListener('click', function () {
-    let value = input.value;
     let myPoke = pokeList.shift();
-    console.log(value);
-    console.log(myPoke);
 
-    if (addList.length > 0 && addList.includes(myPoke) != true) {
-      for (let i = 0; i < addList.length; i++) {
+    let found = addList.find(function(element) {
+      return element.name === myPoke.name;
+    });
 
-        console.log('===')
-        console.log(addList.includes(myPoke));
-        console.log('===');
-        if (addList.includes(myPoke) == true) {
-          alert(`${myPoke.name} is already in your Pokedex!`);
-        } else {
-          addList.push(myPoke);
-          alert(`${myPoke.name} has been added!`);
-        } 
-      }
-    } else if(myPoke != undefined) {
+    if (found) {
+      alert(`${found.name} is already in your list!`);
+    } else if (!found) {
       addList.push(myPoke);
-      alert(`${myPoke.name} has been added!`);
+      alert(`${myPoke.name} has been added to you Pokedex!`);
+    } else {
+      alert('something very bad happened!');
     }
   })
 };
