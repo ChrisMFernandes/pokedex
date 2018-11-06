@@ -95,41 +95,42 @@ submitButton.addEventListener('click', function () {
 
 
           // change the color of text based on pokemon type
-          for (let i = 0; i < pokeType.length; i++) {
-            if (pokeType[i].innerHTML === 'grass') {
-              pokeType[i].style.color = 'green';
-            } else if (pokeType[i].innerHTML === 'poison') {
-              pokeType[i].style.color = 'purple';
-            } else if (pokeType[i].innerHTML === 'ghost') {
-              pokeType[i].style.color = 'violet';
-            } else if (pokeType[i].innerHTML === 'fire') {
-              pokeType[i].style.color = 'red';
-            } else if (pokeType[i].innerHTML === 'flying') {
-              pokeType[i].style.color = 'orange';
-            } else if (pokeType[i].innerHTML === 'water') {
-              pokeType[i].style.color = 'blue';
-            } else if (pokeType[i].innerHTML === 'bug') {
-              pokeType[i].style.color = 'green';
-            } else if (pokeType[i].innerHTML === 'normal') {
-              pokeType[i].style.color = 'black';
-            } else if (pokeType[i].innerHTML === 'electric') {
-              pokeType[i].style.color = 'yellow';
-            } else if (pokeType[i].innerHTML === 'ground') {
-              pokeType[i].style.color = 'brown';
-            } else if (pokeType[i].innerHTML === 'fighting') {
-              pokeType[i].style.color = 'red';
-            } else if (pokeType[i].innerHTML === 'rock') {
-              pokeType[i].style.color = 'black';
-            } else if (pokeType[i].innerHTML === 'psychic') {
-              pokeType[i].style.color = 'violet';
-            } else if (pokeType[i].innerHTML === 'ice') {
-              pokeType[i].style.color = 'blue';
-            } else if (pokeType[i].innerHTML === 'dragon') {
-              pokeType[i].style.color = 'green';
-            } else {
-              pokeType[i].style.color = 'black';
-            }
-          }
+          changeTypeColor();
+          // for (let i = 0; i < pokeType.length; i++) {
+          //   if (pokeType[i].innerHTML === 'grass') {
+          //     pokeType[i].style.color = 'green';
+          //   } else if (pokeType[i].innerHTML === 'poison') {
+          //     pokeType[i].style.color = 'purple';
+          //   } else if (pokeType[i].innerHTML === 'ghost') {
+          //     pokeType[i].style.color = 'violet';
+          //   } else if (pokeType[i].innerHTML === 'fire') {
+          //     pokeType[i].style.color = 'red';
+          //   } else if (pokeType[i].innerHTML === 'flying') {
+          //     pokeType[i].style.color = 'orange';
+          //   } else if (pokeType[i].innerHTML === 'water') {
+          //     pokeType[i].style.color = 'blue';
+          //   } else if (pokeType[i].innerHTML === 'bug') {
+          //     pokeType[i].style.color = 'green';
+          //   } else if (pokeType[i].innerHTML === 'normal') {
+          //     pokeType[i].style.color = 'black';
+          //   } else if (pokeType[i].innerHTML === 'electric') {
+          //     pokeType[i].style.color = 'yellow';
+          //   } else if (pokeType[i].innerHTML === 'ground') {
+          //     pokeType[i].style.color = 'brown';
+          //   } else if (pokeType[i].innerHTML === 'fighting') {
+          //     pokeType[i].style.color = 'red';
+          //   } else if (pokeType[i].innerHTML === 'rock') {
+          //     pokeType[i].style.color = 'black';
+          //   } else if (pokeType[i].innerHTML === 'psychic') {
+          //     pokeType[i].style.color = 'violet';
+          //   } else if (pokeType[i].innerHTML === 'ice') {
+          //     pokeType[i].style.color = 'blue';
+          //   } else if (pokeType[i].innerHTML === 'dragon') {
+          //     pokeType[i].style.color = 'green';
+          //   } else {
+          //     pokeType[i].style.color = 'black';
+          //   }
+          // }
 
           // start the flashing, lights, lights, lights
           startBlinking();
@@ -163,6 +164,44 @@ function addToList() {
 };
 
 addToList();
+
+function changeTypeColor() {
+  for (let i = 0; i < pokeType.length; i++) {
+    if (pokeType[i].innerHTML === 'grass') {
+      pokeType[i].style.color = 'green';
+    } else if (pokeType[i].innerHTML === 'poison') {
+      pokeType[i].style.color = 'purple';
+    } else if (pokeType[i].innerHTML === 'ghost') {
+      pokeType[i].style.color = 'violet';
+    } else if (pokeType[i].innerHTML === 'fire') {
+      pokeType[i].style.color = 'red';
+    } else if (pokeType[i].innerHTML === 'flying') {
+      pokeType[i].style.color = 'orange';
+    } else if (pokeType[i].innerHTML === 'water') {
+      pokeType[i].style.color = 'blue';
+    } else if (pokeType[i].innerHTML === 'bug') {
+      pokeType[i].style.color = 'green';
+    } else if (pokeType[i].innerHTML === 'normal') {
+      pokeType[i].style.color = 'black';
+    } else if (pokeType[i].innerHTML === 'electric') {
+      pokeType[i].style.color = 'yellow';
+    } else if (pokeType[i].innerHTML === 'ground') {
+      pokeType[i].style.color = 'brown';
+    } else if (pokeType[i].innerHTML === 'fighting') {
+      pokeType[i].style.color = 'red';
+    } else if (pokeType[i].innerHTML === 'rock') {
+      pokeType[i].style.color = 'black';
+    } else if (pokeType[i].innerHTML === 'psychic') {
+      pokeType[i].style.color = 'violet';
+    } else if (pokeType[i].innerHTML === 'ice') {
+      pokeType[i].style.color = 'blue';
+    } else if (pokeType[i].innerHTML === 'dragon') {
+      pokeType[i].style.color = 'green';
+    } else {
+      pokeType[i].style.color = 'black';
+    }
+  }
+}
 
 
 // clear out everything from the getpokemon call
