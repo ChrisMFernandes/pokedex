@@ -122,6 +122,7 @@ function addToList() {
 
 addToList();
 
+// called on line 86
 function checkType(thisPoke) {
   if (type2.innerHTML === 'undefined') {
     type2.innerHTML = 'Type';
@@ -130,6 +131,7 @@ function checkType(thisPoke) {
   }
 };
 
+// called on line 83
 function checkAbility(thisPoke) {
   if (ability2.innerHTML === 'undefined') {
     ability2.innerHTML = '';
@@ -138,6 +140,7 @@ function checkAbility(thisPoke) {
   }
 };
 
+// called on line 90, maybe refactor with switch case
 function changeTypeColor() {
   for (let i = 0; i < pokeType.length; i++) {
     if (pokeType[i].innerHTML === 'grass') {
