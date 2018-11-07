@@ -123,10 +123,10 @@ function addToList() {
 addToList();
 
 function checkType(thisPoke) {
-  if (ability2.innerHTML === 'undefined') {
-    ability2.innerHTML = '';
+  if (type2.innerHTML === 'undefined') {
+    type2.innerHTML = 'Type';
   } else {
-    ability2.innerHTML = thisPoke.ability2;
+    type2.innerHTML = thisPoke.type2;
   }
 };
 
