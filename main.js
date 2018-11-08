@@ -70,14 +70,7 @@ submitButton.addEventListener('click', function () {
           thisPoke.add(thisPoke);
 
           // append the pokemon data to html
-          hpResult.innerHTML = thisPoke.hp;
-          atkResult.innerHTML = thisPoke.atk;
-          defResult.innerHTML = thisPoke.def;
-          ability1.innerHTML = thisPoke.ability1;
-          ability2.innerHTML = thisPoke.ability2;
-          image.src = thisPoke.image;
-          type1.innerHTML = thisPoke.type1;
-          type2.innerHTML = thisPoke.type2;
+          appendData(thisPoke);
 
           // if pokemon only has one ability pass nothing to browser
           checkAbility(thisPoke);
@@ -85,20 +78,21 @@ submitButton.addEventListener('click', function () {
           //  if pokemon only has one type pass nothing to browser
           checkType(thisPoke);
 
-
           // change the color of text based on pokemon type
           changeTypeColor();
 
           // start the flashing, lights, lights, lights
           startBlinking();
 
-        }
+        } 
       }
     }
   };
-  xhttp.open("GET", "https://raw.githubusercontent.com/ChrisMFernandes/pokedex/master/pokemon.json", true);
+  xhttp.open('GET', 'https://raw.githubusercontent.com/ChrisMFernandes/pokedex/master/pokemon.json', true);
   xhttp.send();
 });
+
+
 
 // add pokemon to secondary list to loop through using directional pads on pokedex
 function addToList() { 
@@ -121,6 +115,18 @@ function addToList() {
 };
 
 addToList();
+
+// called on line 73
+function appendData(thisPoke) {
+  hpResult.innerHTML = thisPoke.hp;
+  atkResult.innerHTML = thisPoke.atk;
+  defResult.innerHTML = thisPoke.def;
+  ability1.innerHTML = thisPoke.ability1;
+  ability2.innerHTML = thisPoke.ability2;
+  image.src = thisPoke.image;
+  type1.innerHTML = thisPoke.type1;
+  type2.innerHTML = thisPoke.type2;
+};
 
 // called on line 86
 function checkType(thisPoke) {
@@ -179,7 +185,6 @@ function changeTypeColor() {
   }
 };
 
-
 // clear out everything from the getpokemon call
 function clear() {
   clearButton.addEventListener('click', function () {
@@ -209,38 +214,64 @@ function startBlinking() {
 
 function blink() {
   setTimeout(function () {
-    blinkL.classList.add("blink");
-    bluebtnL.classList.add("blink");
-    bluebtnBR.classList.add("blink");
+    blinkL.classList.add('blink');
+    bluebtnL.classList.add('blink');
+    bluebtnBR.classList.add('blink');
   }, 100);
   setTimeout(function () {
-    blinkL.classList.remove("blink");
-    bluebtnL.classList.remove("blink");
-    bluebtnBR.classList.remove("blink");
+    blinkL.classList.remove('blink');
+    bluebtnL.classList.remove('blink');
+    bluebtnBR.classList.remove('blink');
   }, 350);
   setTimeout(function () {
-    blinkM.classList.add("blink");
-    bluebtnR.classList.add("blink");
-    bluebtnBL.classList.add("blink");
+    blinkM.classList.add('blink');
+    bluebtnR.classList.add('blink');
+    bluebtnBL.classList.add('blink');
   }, 300);
   setTimeout(function () {
-    blinkM.classList.remove("blink");
-    bluebtnR.classList.remove("blink");
-    bluebtnBL.classList.remove("blink");
+    blinkM.classList.remove('blink');
+    bluebtnR.classList.remove('blink');
+    bluebtnBL.classList.remove('blink');
   }, 550);
   setTimeout(function () {
-    blinkR.classList.add("blink");
-    bluebtnBM.classList.add("blink");
+    blinkR.classList.add('blink');
+    bluebtnBM.classList.add('blink');
   }, 500);
   setTimeout(function () {
-    blinkR.classList.remove("blink");
-    bluebtnBM.classList.remove("blink");
+    blinkR.classList.remove('blink');
+    bluebtnBM.classList.remove('blink');
   }, 750);
   setTimeout(function () {
-    bluebtnM.classList.add("blink");
+    bluebtnM.classList.add('blink');
   }, 750);
   setTimeout(function () {
-    bluebtnM.classList.remove("blink");
+    bluebtnM.classList.remove('blink');
   }, 950);
-
 };
+
+// TODO build a function to loop through addList and use d-pad to scroll through list
+// * need to add click event listener to upButton and downButton
+// * in event listener function loop through addList add pass object props to html
+  // ! increment loop for upButton / decrement for downButton
+
+function incrementList() {
+  upButton.addEventListener('click', function () {
+    console.log('im here');
+    for (let i = 0; i < addList.length; i++) {
+      console.log(addlist[i]);
+      }
+  })
+};
+
+incrementList();
+
+function decrementList() {
+  downButton.addEventListener('click', function () {
+    console.log('im here');
+    for (let i = addList.length - 1; i >= 0; i--) {
+      console.log(addlist[i]);
+      }
+  })
+};
+
+decrementList();
