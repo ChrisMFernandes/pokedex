@@ -254,6 +254,24 @@ function blink() {
 // * in event listener function loop through addList add pass object props to html
   // ! increment loop for upButton / decrement for downButton
 
+function test() {
+    
+  let test = addList.map(function(element) {
+      console.log('im here')
+      let currentPoke = addList[0];
+
+      input.value = currentPoke.name;
+      appendData(currentPoke);
+      checkType(currentPoke);
+      checkAbility(currentPoke);
+      changeTypeColor();
+
+    })
+
+    return test;
+}
+
+
 function incrementList() {
   upButton.addEventListener('click', function () {
     console.log('im here');
