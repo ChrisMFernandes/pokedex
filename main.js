@@ -118,6 +118,7 @@ addToList();
 
 // called on line 73
 function appendData(thisPoke) {
+  if (!thisPoke) return;
   hpResult.innerHTML = thisPoke.hp;
   atkResult.innerHTML = thisPoke.atk;
   defResult.innerHTML = thisPoke.def;
@@ -255,16 +256,16 @@ function blink() {
   // ! increment loop for upButton / decrement for downButton
 
 function test() {
-  let currentInput = input.value;
-  var currentPoke = addList[0];
+  let input = document.getElementById('text');
+  
+  let currentPoke = addList.find(function(element, index) {
+    return element;
+  })
 
   console.log('===');
-  console.log(currentPoke.name);
+  console.log(currentPoke);
   console.log('===');
-
-  findPoke(currentInput);
-
-  input = currentPoke.name;
+  // input.value = currentPoke.name;
   appendData(currentPoke);
   checkType(currentPoke);
   checkAbility(currentPoke);
@@ -286,7 +287,7 @@ function test() {
 }
 
 function findPoke(input) {
-  addList.forEach(function(currentPoke, index) {
+  addList.find(function(currentPoke, index) {
     console.log('im in here'); 
     // console.log(currentPoke);
 
@@ -326,13 +327,36 @@ function findPoke(input) {
 function incrementList() {
   upButton.addEventListener('click', function () {
     console.log('im here');
-    for (let i = 0; i < addList.length; i++) {
-      console.log(addList[i]);
-      }
+    let input = document.getElementById('text');
+  
+    let currentPoke = addList[0];
+
+    console.log('===');
+    console.log(currentPoke);
+    console.log('===');
+
+    searchPokemon(currentPoke);
+
+    input.value = currentPoke.name;
+    appendData(currentPoke);
+    checkType(currentPoke);
+    checkAbility(currentPoke);
+    changeTypeColor();
+
   })
-};
+}
 
 incrementList();
+
+function searchPokemon(firstPoke) {
+  console.log('im in here')
+  console.log(firstPoke.name);
+  for (let i = 0; i < addList.length; i++) {
+    if (firstPoke.name == addList[i].name) {
+      console.log(addList[i + 1]);
+    }
+  }
+}
 
 // function decrementList() {
 //   downButton.addEventListener('click', function () {
