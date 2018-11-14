@@ -118,6 +118,7 @@ addToList();
 
 // called on line 73
 function appendData(thisPoke) {
+  if (!thisPoke) return;
   hpResult.innerHTML = thisPoke.hp;
   atkResult.innerHTML = thisPoke.atk;
   defResult.innerHTML = thisPoke.def;
@@ -255,41 +256,115 @@ function blink() {
   // ! increment loop for upButton / decrement for downButton
 
 function test() {
-    
-  let test = addList.map(function(element) {
-      console.log('im here')
-      let currentPoke = addList[0];
+  let input = document.getElementById('text');
+  
+  let currentPoke = addList.find(function(element, index) {
+    return element;
+  })
 
-      input.value = currentPoke.name;
+  console.log('===');
+  console.log(currentPoke);
+  console.log('===');
+  // input.value = currentPoke.name;
+  appendData(currentPoke);
+  checkType(currentPoke);
+  checkAbility(currentPoke);
+  changeTypeColor();
+
+  // let test = addList.map(function(element) {
+  //     console.log('im here')
+  //     let currentPoke = addList[0];
+
+  //     input.value = currentPoke.name;
+  //     appendData(currentPoke);
+  //     checkType(currentPoke);
+  //     checkAbility(currentPoke);
+  //     changeTypeColor();
+
+  //   })
+
+    // return test;
+}
+
+function findPoke(input) {
+  addList.find(function(currentPoke, index) {
+    console.log('im in here'); 
+    // console.log(currentPoke);
+
+    if (input == currentPoke.name) {
+      currentPoke = addList[index + 1];
+      console.log('===');
+      console.log(currentPoke);
+      console.log('===');
+      currentInput = currentPoke.name;
       appendData(currentPoke);
       checkType(currentPoke);
       checkAbility(currentPoke);
       changeTypeColor();
+    }
 
-    })
+    // if (index < addList.length - 1) {
+    //   currentPoke = addList[index + 1];
+    //   console.log(`Next: ${currentPoke.name}`);
+    //   input.value = currentPoke.name;
+    //   appendData(currentPoke);
+    //   checkType(currentPoke);
+    //   checkAbility(currentPoke);
+    //   changeTypeColor();
+    // }
 
-    return test;
+    // else {
+    //   console.log(`Current: ${currentPoke.name}`);
+    //   input.value = currentPoke.name;
+    //   appendData(currentPoke);
+    //   checkType(currentPoke);
+    //   checkAbility(currentPoke);
+    //   changeTypeColor();
+    // }
+  })
 }
-
 
 function incrementList() {
   upButton.addEventListener('click', function () {
     console.log('im here');
-    for (let i = 0; i < addList.length; i++) {
-      console.log(addlist[i]);
-      }
+    let input = document.getElementById('text');
+  
+    let currentPoke = addList[0];
+
+    console.log('===');
+    console.log(currentPoke);
+    console.log('===');
+
+    searchPokemon(currentPoke);
+
+    input.value = currentPoke.name;
+    appendData(currentPoke);
+    checkType(currentPoke);
+    checkAbility(currentPoke);
+    changeTypeColor();
+
   })
-};
+}
 
 incrementList();
 
-function decrementList() {
-  downButton.addEventListener('click', function () {
-    console.log('im here');
-    for (let i = addList.length - 1; i >= 0; i--) {
-      console.log(addlist[i]);
-      }
-  })
-};
+function searchPokemon(firstPoke) {
+  console.log('im in here')
+  console.log(firstPoke.name);
+  for (let i = 0; i < addList.length; i++) {
+    if (firstPoke.name == addList[i].name) {
+      console.log(addList[i + 1]);
+    }
+  }
+}
 
-decrementList();
+// function decrementList() {
+//   downButton.addEventListener('click', function () {
+//     console.log('im here');
+//     for (let i = addList.length - 1; i >= 0; i--) {
+//       console.log(addlist[i]);
+//       }
+//   })
+// };
+
+// decrementList();
