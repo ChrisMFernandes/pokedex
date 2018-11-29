@@ -15,5 +15,7 @@ This application was built as a fun project to learn CSS grid and practise OOP J
 ---
 
 # Deployment
+[Check out my application on GitHub pages!](https://chrismfernandes.github.io/pokedex/)
 
 # Coming Soon
+
