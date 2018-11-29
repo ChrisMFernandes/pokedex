@@ -19,3 +19,4 @@ This application was built as a fun project to learn CSS grid and practice OOP J
 
 # Coming Soon
 
+* Users will be able to use the up and down buttons on the directional pad to cycle through a list of Pokemon that the user has added to their PokeDex
