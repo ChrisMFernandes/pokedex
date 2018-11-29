@@ -10,7 +10,7 @@ This application was built as a fun project to learn CSS grid and practise OOP J
 
 ![alt text](https://github.com/ChrisMFernandes/pokedex/blob/master/images/image1.png "Landing page")
 ---
-![alt text](https://github.com/ChrisMFernandes/pokedex/blob/master/images/image1.png "Landing page w/ Pokemon displayed")
+![alt text](https://github.com/ChrisMFernandes/pokedex/blob/master/images/image2.png "Landing page w/ Pokemon displayed")
 ---
 
 # Deployment
