@@ -8,9 +8,9 @@ This application was built as a fun project to learn CSS grid and practise OOP J
 * HTML
 * JavaScript
 
-![alt text](https://github.com/ChrisMFernandes/perfectpantry/blob/master/public/images/screenshot1.png "Landing page top")
+![alt text](https://github.com/ChrisMFernandes/pokedex/blob/master/images/image1.png "Landing page")
 ---
-![alt text](https://github.com/ChrisMFernandes/perfectpantry/blob/master/public/images/screenshot1.png "Landing page top")
+![alt text](https://github.com/ChrisMFernandes/pokedex/blob/master/images/image1.png "Landing page w/ Pokemon displayed")
 ---
 
 # Deployment
