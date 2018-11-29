@@ -1,12 +1,13 @@
 # Personal PokeDex
 
-This application was built as a fun project to learn CSS grid and practise OOP Javascript. Users are able to search any of the original 151 Pokemon.
+This application was built as a fun project to learn CSS grid and practise OOP Javascript and AJAX. Users are able to search any of the original 151 Pokemon.
 
 # Built With
 
 * CSS Grid
 * HTML
 * JavaScript
+* AJAX
 
 ![alt text](https://github.com/ChrisMFernandes/pokedex/blob/master/images/image1.png "Landing page")
 ---
