@@ -84,7 +84,8 @@ submitButton.addEventListener('click', function () {
           // start the flashing, lights, lights, lights
           startBlinking();
 
-        } 
+        }
+
       }
     }
   };
@@ -255,37 +256,6 @@ function blink() {
 // * in event listener function loop through addList add pass object props to html
   // ! increment loop for upButton / decrement for downButton
 
-function test() {
-  let input = document.getElementById('text');
-  
-  let currentPoke = addList.find(function(element, index) {
-    return element;
-  })
-
-  console.log('===');
-  console.log(currentPoke);
-  console.log('===');
-  // input.value = currentPoke.name;
-  appendData(currentPoke);
-  checkType(currentPoke);
-  checkAbility(currentPoke);
-  changeTypeColor();
-
-  // let test = addList.map(function(element) {
-  //     console.log('im here')
-  //     let currentPoke = addList[0];
-
-  //     input.value = currentPoke.name;
-  //     appendData(currentPoke);
-  //     checkType(currentPoke);
-  //     checkAbility(currentPoke);
-  //     changeTypeColor();
-
-  //   })
-
-    // return test;
-}
-
 function findPoke(input) {
   addList.find(function(currentPoke, index) {
     console.log('im in here'); 
@@ -331,29 +301,39 @@ function incrementList() {
   
     let currentPoke = addList[0];
 
-    console.log('===');
-    console.log(currentPoke);
-    console.log('===');
-
-    searchPokemon(currentPoke);
-
     input.value = currentPoke.name;
     appendData(currentPoke);
     checkType(currentPoke);
     checkAbility(currentPoke);
     changeTypeColor();
 
+    let test = searchPokemon(currentPoke);
+
+    console.log('===');
+    console.log(test);
+    console.log('===');
+
+
+    input.value = test.name;
+    appendData(test);
+    checkType(test);
+    checkAbility(test);
+    changeTypeColor();
+
   })
+
 }
 
 incrementList();
 
-function searchPokemon(firstPoke) {
+function searchPokemon(poke) {
   console.log('im in here')
-  console.log(firstPoke.name);
   for (let i = 0; i < addList.length; i++) {
-    if (firstPoke.name == addList[i].name) {
-      console.log(addList[i + 1]);
+    console.log('now im in the loop')
+    if (poke.name == addList[i].name) {
+      return addList[i + 1];
+    } else {
+      return addList[i];
     }
   }
 }
